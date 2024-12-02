@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Migrations\\20241202002817_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Migrations\\20241202002817_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\rideplanner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\rideplanner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\rideplanner.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\rideplanner.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -27,15 +52,92 @@
         },
         {
           "DockedWidth": 310,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241202002817_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Migrations\\20241202002817_InitialCreate.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Migrations\\20241202002817_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Migrations\\20241202002817_InitialCreate.cs",
+              "RelativeToolTip": "RidePlanner\\Migrations\\20241202002817_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T00:28:17.921Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RidePlanner",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\RidePlanner.csproj",
+              "RelativeDocumentMoniker": "RidePlanner\\RidePlanner.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\RidePlanner.csproj",
+              "RelativeToolTip": "RidePlanner\\RidePlanner.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-02T00:25:00.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RidePlanner.csproj",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\RidePlanner.csproj",
+              "RelativeDocumentMoniker": "RidePlanner\\RidePlanner.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\RidePlanner.csproj",
+              "RelativeToolTip": "RidePlanner\\RidePlanner.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-02T00:19:05.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "RidePlanner\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T00:09:05.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\appsettings.json",
+              "RelativeDocumentMoniker": "RidePlanner\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\appsettings.json",
+              "RelativeToolTip": "RidePlanner\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T23:44:29.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Program.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Program.cs",
+              "RelativeToolTip": "RidePlanner\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T23:46:24.683Z",
+              "EditorCaption": ""
             }
           ]
         }
