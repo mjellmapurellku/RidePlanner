@@ -17,6 +17,11 @@ namespace RidePlanner.Data
         public DbSet<User> Users { get; set; }
         public DbSet<BusSchedule> BusSchedules { get; set; }
         public DbSet<BusReservations> BusReservations { get; set; }
+        public DbSet<TaxiCompany> TaxiCompanies { get; set; }
+        public DbSet<Taxi> Taxis { get; set; }
+        public DbSet<TaxiBookings> TaxiBookings { get; set; }
+        public DbSet<TaxiReservations> TaxiReservations { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
