@@ -16,6 +16,7 @@ namespace RidePlanner.Data
         public DbSet<BusRouteAssignments> BusRouteAssignments { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<BusSchedule> BusSchedules { get; set; }
+        public DbSet<BusReservations> BusReservations { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -27,6 +28,7 @@ namespace RidePlanner.Data
             modelBuilder.ApplyConfiguration(new BusRouteAssignmentsConfiguration());
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new BusScheduleConfiguration());
+            modelBuilder.ApplyConfiguration(new BusReservationsConfiguration());
 
             ApplyGlobalQueryFilters(modelBuilder);
 
