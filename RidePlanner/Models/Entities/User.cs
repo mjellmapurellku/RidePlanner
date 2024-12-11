@@ -51,17 +51,17 @@ namespace RidePlanner.Models.Entities
             /// <summary>
             /// Gets or sets the collection of taxi reservations associated with the user.
             /// </summary>
-      //      public ICollection<TaxiReservations> TaxiReservations { get; set; } = new List<TaxiReservations>();
+            public ICollection<TaxiReservations> TaxiReservations { get; set; } = new List<TaxiReservations>();
 
             /// <summary>
             /// Gets or sets the collection of taxi bookings made by the user.
             /// </summary>
-       //     public ICollection<TaxiBookings> TaxiBookings { get; set; } = new List<TaxiBookings>();
+            public ICollection<TaxiBookings> TaxiBookings { get; set; } = new List<TaxiBookings>();
 
             /// <summary>
             /// Gets or sets the collection of notifications for the user.
             /// </summary>
-         //   public ICollection<Notifications> Notifications { get; set; } = new List<Notifications>();
+            //public ICollection<Notifications> Notifications { get; set; } = new List<Notifications>();
 
             /// <summary>
             /// Gets or sets a value indicating whether the user is marked as deleted.

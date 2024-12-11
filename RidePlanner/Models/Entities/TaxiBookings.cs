@@ -79,7 +79,7 @@ namespace RidePlanner.Models.Entities
         /// <summary>
         /// The collection of notifications associated with the booking.
         /// </summary>
-        public ICollection<Notifications> Notifications { get; set; } = new List<Notifications>();
+        //public ICollection<Notifications> Notifications { get; set; } = new List<Notifications>();
 
         /// <summary>
         /// The taxi company associated with the booking.

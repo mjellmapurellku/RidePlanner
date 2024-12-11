@@ -63,19 +63,19 @@ namespace RidePlanner.Data.Configurations
             builder.Property(u => u.CreatedAt)
                 .HasDefaultValueSql("GETUTCDATE()");
         }
-        //private void ConfigureRelationships(EntityTypeBuilder<User> builder)
-        //{
-        //    builder.HasMany(u => u.TaxiReservations)
-        //        .WithOne(tr => tr.User)
-        //        .HasForeignKey(tr => tr.UserId);
+        private void ConfigureRelationships(EntityTypeBuilder<User> builder)
+        {
+            builder.HasMany(u => u.TaxiReservations)
+                .WithOne(tr => tr.User)
+                .HasForeignKey(tr => tr.UserId);
 
-        //    builder.HasMany(u => u.TaxiBookings)
-        //        .WithOne(tb => tb.User)
-        //        .HasForeignKey(tb => tb.UserId);
+            builder.HasMany(u => u.TaxiBookings)
+                .WithOne(tb => tb.User)
+                .HasForeignKey(tb => tb.UserId);
 
-        //    builder.HasMany(u => u.Notifications)
-        //        .WithOne(n => n.User)
-        //        .HasForeignKey(n => n.UserId);
-        //}
+            //builder.HasMany(u => u.Notifications)
+            //    .WithOne(n => n.User)
+            //    .HasForeignKey(n => n.UserId);
+        }
     }
 }

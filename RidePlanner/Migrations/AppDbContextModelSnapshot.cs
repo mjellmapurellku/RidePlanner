@@ -32,16 +32,14 @@ namespace RidePlanner.Migrations
 
                     b.Property<string>("CompanyName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactInfo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedAt")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
+                        .HasColumnType("datetime2");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -50,9 +48,6 @@ namespace RidePlanner.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("BusCompanyId");
-
-                    b.HasIndex("CompanyName")
-                        .IsUnique();
 
                     b.ToTable("BusCompanies");
                 });
@@ -144,9 +139,7 @@ namespace RidePlanner.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RouteId"));
 
                     b.Property<DateTime>("CreatedAt")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
+                        .HasColumnType("datetime2");
 
                     b.Property<TimeSpan>("EstimatedDuration")
                         .HasColumnType("time");
@@ -165,15 +158,6 @@ namespace RidePlanner.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("RouteId");
-
-                    b.HasIndex("FromLocation")
-                        .HasDatabaseName("IX_BusRoutes_FromLocation");
-
-                    b.HasIndex("ToLocation")
-                        .HasDatabaseName("IX_BusRoutes_ToLocation");
-
-                    b.HasIndex("FromLocation", "ToLocation")
-                        .HasDatabaseName("IX_BusRoutes_FromToLocation");
 
                     b.ToTable("BusRoutes");
                 });
@@ -243,9 +227,7 @@ namespace RidePlanner.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
+                        .HasColumnType("datetime2");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -260,9 +242,223 @@ namespace RidePlanner.Migrations
 
                     b.HasIndex("BusCompanyId");
 
-                    b.HasIndex("Status");
-
                     b.ToTable("Buses");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.Taxi", b =>
+                {
+                    b.Property<int>("TaxiId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaxiId"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.Property<string>("DriverName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LicensePlate")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TaxiCompanyId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("TaxiId");
+
+                    b.HasIndex("LicensePlate")
+                        .IsUnique();
+
+                    b.HasIndex("TaxiCompanyId");
+
+                    b.ToTable("Taxis");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.TaxiBookings", b =>
+                {
+                    b.Property<int>("BookingId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookingId"));
+
+                    b.Property<DateTime>("BookingTime")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.Property<string>("DropoffLocation")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<decimal?>("Fare")
+                        .HasPrecision(10, 2)
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<int>("PassengerCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PickupLocation")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TaxiCompanyId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("TaxiId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("TripEndTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("TripStartTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("BookingId");
+
+                    b.HasIndex("TaxiCompanyId");
+
+                    b.HasIndex("TaxiId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("TaxiBookings");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.TaxiCompany", b =>
+                {
+                    b.Property<int>("TaxiCompanyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaxiCompanyId"));
+
+                    b.Property<string>("CompanyName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("ContactInfo")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("TaxiCompanyId");
+
+                    b.HasIndex("CompanyName")
+                        .IsUnique();
+
+                    b.ToTable("TaxiCompanies");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.TaxiReservations", b =>
+                {
+                    b.Property<int>("ReservationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReservationId"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.Property<string>("DropoffLocation")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<decimal>("Fare")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<int>("PassengerCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PickupLocation")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<DateTime>("ReservationTime")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TaxiCompanyId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("TaxiId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("TripEndTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("TripStartTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReservationId");
+
+                    b.HasIndex("TaxiCompanyId");
+
+                    b.HasIndex("TaxiId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("TaxiReservations");
                 });
 
             modelBuilder.Entity("RidePlanner.Models.Entities.User", b =>
@@ -384,9 +580,90 @@ namespace RidePlanner.Migrations
                     b.Navigation("BusCompany");
                 });
 
+            modelBuilder.Entity("RidePlanner.Models.Entities.Taxi", b =>
+                {
+                    b.HasOne("RidePlanner.Models.Entities.TaxiCompany", "TaxiCompany")
+                        .WithMany("Taxis")
+                        .HasForeignKey("TaxiCompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("TaxiCompany");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.TaxiBookings", b =>
+                {
+                    b.HasOne("RidePlanner.Models.Entities.TaxiCompany", "TaxiCompany")
+                        .WithMany()
+                        .HasForeignKey("TaxiCompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RidePlanner.Models.Entities.Taxi", "Taxi")
+                        .WithMany("TaxiBookings")
+                        .HasForeignKey("TaxiId");
+
+                    b.HasOne("RidePlanner.Models.Entities.User", "User")
+                        .WithMany("TaxiBookings")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Taxi");
+
+                    b.Navigation("TaxiCompany");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.TaxiReservations", b =>
+                {
+                    b.HasOne("RidePlanner.Models.Entities.TaxiCompany", "TaxiCompany")
+                        .WithMany()
+                        .HasForeignKey("TaxiCompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RidePlanner.Models.Entities.Taxi", "Taxi")
+                        .WithMany("TaxiReservations")
+                        .HasForeignKey("TaxiId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("RidePlanner.Models.Entities.User", "User")
+                        .WithMany("TaxiReservations")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Taxi");
+
+                    b.Navigation("TaxiCompany");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("RidePlanner.Models.Entities.BusCompany", b =>
                 {
                     b.Navigation("Buses");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.Taxi", b =>
+                {
+                    b.Navigation("TaxiBookings");
+
+                    b.Navigation("TaxiReservations");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.TaxiCompany", b =>
+                {
+                    b.Navigation("Taxis");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.User", b =>
+                {
+                    b.Navigation("TaxiBookings");
+
+                    b.Navigation("TaxiReservations");
                 });
 #pragma warning restore 612, 618
         }
