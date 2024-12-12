@@ -5,16 +5,88 @@
       "PackagePath": "staticwebassets\\RidePlanner.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-svg.css"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\css\\soft-ui-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\soft-ui-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\css\\soft-ui-dashboard.css.map",
+      "PackagePath": "staticwebassets\\css\\soft-ui-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\css\\soft-ui-dashboard.min.css",
+      "PackagePath": "staticwebassets\\css\\soft-ui-dashboard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\plugins\\choices.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\choices.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\plugins\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
     },
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -197,6 +269,18 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -243,6 +327,66 @@
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RidePlanner.Microsoft.AspNetCore.StaticWebAssets.props",

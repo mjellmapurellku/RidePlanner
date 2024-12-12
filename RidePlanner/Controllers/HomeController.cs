@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using RidePlanner.Models;
 using System.Diagnostics;
+using RidePlanner.Models;
 
 namespace RidePlanner.Controllers
 {
@@ -13,12 +13,17 @@ namespace RidePlanner.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() 
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Services()
+        {
+            return View();
+        }
+
+        public IActionResult UserActivity()
         {
             return View();
         }
