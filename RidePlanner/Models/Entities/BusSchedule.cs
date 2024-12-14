@@ -3,6 +3,9 @@
 using RidePlanner.Models.Enums;
 namespace RidePlanner.Models.Entities
 {
+    /// <summary>
+    /// Represents the scheduling details for a bus, including timing, pricing, and capacity.
+    /// </summary>
     public class BusSchedule
     {
         /// <summary>

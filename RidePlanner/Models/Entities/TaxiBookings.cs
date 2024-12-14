@@ -3,12 +3,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RidePlanner.Models.Entities
 {
+    /// <summary>
+    /// Represents a taxi booking record.
+    /// </summary>
     public class TaxiBookings
     {
         /// <summary>
         /// The unique identifier for the booking.
         /// </summary>
-        [Key] 
         public int BookingId { get; set; }
 
         /// <summary>

@@ -12,7 +12,7 @@ namespace RidePlanner.Data.Configurations
             ConfigureProperties(builder);
             ConfigureIndexes(builder);
             ConfigureDefaults(builder);
-         //   ConfigureRelationships(builder);
+            ConfigureRelationships(builder);
         }
 
         private void ConfigureKeys(EntityTypeBuilder<User> builder)
@@ -65,6 +65,12 @@ namespace RidePlanner.Data.Configurations
         }
         private void ConfigureRelationships(EntityTypeBuilder<User> builder)
         {
+            builder.HasMany(u => u.BusReservations)
+                .WithOne(br => br.User)
+                .HasForeignKey(br => br.UserId)
+                .OnDelete(DeleteBehavior.Restrict)
+                .IsRequired();
+
             builder.HasMany(u => u.TaxiReservations)
                 .WithOne(tr => tr.User)
                 .HasForeignKey(tr => tr.UserId);
@@ -74,8 +80,9 @@ namespace RidePlanner.Data.Configurations
                 .HasForeignKey(tb => tb.UserId);
 
             //builder.HasMany(u => u.Notifications)
-            //    .WithOne(n => n.User)
-            //    .HasForeignKey(n => n.UserId);
+              //  .WithOne(n => n.User)
+                //.HasForeignKey(n => n.UserId)
+                //.OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

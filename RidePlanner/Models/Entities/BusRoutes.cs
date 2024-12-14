@@ -2,6 +2,9 @@
 
 namespace RidePlanner.Models.Entities
 {
+    /// <summary>
+    /// Represents a bus route with details such as origin, destination, and estimated travel duration.
+    /// </summary>
     public class BusRoutes
     {
         /// <summary>

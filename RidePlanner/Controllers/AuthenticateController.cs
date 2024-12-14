@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
-using Microsoft.AspNetCore.Mvc;
 using RidePlanner.Data;
 using RidePlanner.Models.Entities;
 using System.Text;
@@ -9,9 +8,9 @@ using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using RidePlanner.Models.DTOs;
 using RidePlanner.Models.Enums;
-using RidePlanner.ViewModel.Authenticate;
+using RidePlanner.Filters;
 
-namespace WebApplication1.Controllers
+namespace RidePlanner.Controllers
 {
     [Route("Authenticate")]
     public class AuthenticateController : Controller
@@ -70,9 +69,10 @@ namespace WebApplication1.Controllers
         }
 
         [HttpGet("UserList")]
+        [ServiceFilter(typeof(AdminOnlyFilter))]
         public IActionResult UserList()
         {
-        
+
             var users = _context.Users.ToList();
 
             return View(users);
@@ -225,6 +225,44 @@ namespace WebApplication1.Controllers
             _logger.LogInformation("User logged out successfully.");
 
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet("GetCurrentUser")]
+        public IActionResult GetCurrentUser()
+        {
+
+            var userId = _httpContextAccessor.HttpContext.Session.GetInt32("UserId");
+
+            if (!userId.HasValue)
+            {
+                return Unauthorized(new StandardResponse(
+                    ApiStatusEnum.UNAUTHORIZED,
+                    Guid.NewGuid().ToString(),
+                    "User is not authorized to access this resource."
+                ));
+            }
+
+            var user = _context.Users.Find(userId.Value);
+            if (user == null)
+            {
+                return NotFound(new StandardResponse(
+                    ApiStatusEnum.USER_NOT_FOUND,
+                    Guid.NewGuid().ToString(),
+                    "User not found."
+                ));
+            }
+
+            return Ok(new StandardResponse(
+                ApiStatusEnum.OK,
+                Guid.NewGuid().ToString(),
+                "Success",
+                new
+                {
+                    user.UserId,
+                    user.FirstName,
+                    user.LastName
+                }
+            ));
         }
     }
 }

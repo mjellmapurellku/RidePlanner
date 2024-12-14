@@ -15,7 +15,7 @@ namespace RidePlanner.Data
         public DbSet<TaxiReservations> TaxiReservations { get; set; }
         public DbSet<TaxiBookings> TaxiBookings { get; set; }
         public DbSet<BusSchedule> BusSchedules { get; set; }
-        public DbSet<BusRouteAssignments> BusRouteAssignments { get; set; }
+
         public DbSet<BusReservations> BusReservations { get; set; }
         public DbSet<BusCompany> BusCompanies { get; set; }
         public DbSet<Buses> Buses { get; set; }
@@ -28,7 +28,7 @@ namespace RidePlanner.Data
             modelBuilder.ApplyConfiguration(new TaxiConfiguration());
             modelBuilder.ApplyConfiguration(new TaxiReservationsConfiguration());
             modelBuilder.ApplyConfiguration(new BusScheduleConfiguration());
-            modelBuilder.ApplyConfiguration(new BusRouteAssignmentsConfiguration());
+           
             modelBuilder.ApplyConfiguration(new BusReservationsConfiguration());
             modelBuilder.ApplyConfiguration(new TaxiBookingConfiguration());
 

@@ -1,4 +1,6 @@
-﻿namespace RidePlanner.Models.Enums
+﻿using System;
+
+namespace RidePlanner.Models.Enums
 {
     public enum UserRole
     {

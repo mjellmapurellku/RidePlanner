@@ -85,7 +85,11 @@ namespace RidePlanner.Data.Configurations
                 .HasForeignKey(tr => tr.TaxiId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            builder.HasOne(tr => tr.TaxiCompany)
+                .WithMany(tc => tc.TaxiReservations)
+                .HasForeignKey(tr => tr.TaxiCompanyId)
+                .OnDelete(DeleteBehavior.Restrict)
+                .IsRequired();
         }
-
     }
 }

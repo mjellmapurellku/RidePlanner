@@ -3,6 +3,9 @@ using RidePlanner.Models.Enums;
 
 namespace RidePlanner.Models.Entities
 {
+    /// <summary>
+    /// Represents a reservation made for a bus service.
+    /// </summary>
     public class BusReservations
     {
         /// <summary>
@@ -67,7 +70,7 @@ namespace RidePlanner.Models.Entities
         /// <summary>
         /// Navigation property for accessing the bus schedule associated with the reservation.
         /// </summary>
-        public BusSchedule Schedule { get; set; } = null!;
+        public BusSchedule? Schedule { get; set; } = null!;
 
         /// <summary>
         /// Navigation property for accessing the user who made the reservation.

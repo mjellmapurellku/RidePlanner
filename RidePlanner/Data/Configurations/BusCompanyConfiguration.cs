@@ -25,7 +25,8 @@ namespace RidePlanner.Data.Configurations
                 .ValueGeneratedOnAdd();
 
             builder.Property(bc => bc.CompanyName)
-                .IsRequired();
+                 .IsRequired()
+                 .HasMaxLength(100);
 
             builder.Property(bc => bc.ContactInfo)
                 .IsRequired();
@@ -48,5 +49,14 @@ namespace RidePlanner.Data.Configurations
             builder.Property(bc => bc.CreatedAt)
                 .HasDefaultValueSql("GETUTCDATE()");
         }
+
+        private void ConfigureRelationships(EntityTypeBuilder<BusCompany> builder)
+        {
+            builder.HasMany(bc => bc.Buses)
+                .WithOne(b => b.BusCompany)
+                .HasForeignKey(b => b.BusCompanyId)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
     }
 }
+
