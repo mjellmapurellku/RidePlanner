@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RidePlanners.Filters;
+using RidePlanner.Interfaces;
 
 namespace RidePlanner
 {
@@ -25,9 +26,10 @@ namespace RidePlanner
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddAutoMapper(typeof(AdminProfile));
-
+            builder.Services.AddScoped<ITaxiCompanyService, TaxiCompanyService>();
+            builder.Services.AddScoped<IBusCompanyService, BusCompanyService>();
             //builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
+            builder.Services.AddScoped<IAuthenticateService, AuthenticateService>();
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
