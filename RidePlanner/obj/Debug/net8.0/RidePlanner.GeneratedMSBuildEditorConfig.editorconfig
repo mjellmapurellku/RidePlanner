@@ -46,12 +46,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRlXFVzZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO/Desktop/RidePlanner/RidePlanner/Views/BusCompany/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzQ29tcGFueVxBZGQuY3NodG1s
+[C:/Users/LENOVO/Desktop/RidePlanner/RidePlanner/Views/Dashboard/Bus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEJ1cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/LENOVO/Desktop/RidePlanner/RidePlanner/Views/Dashboard/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/RidePlanner/RidePlanner/Views/Dashboard/Taxi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFRheGkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/LENOVO/Desktop/RidePlanner/RidePlanner/Views/Home/Index.cshtml]
@@ -80,10 +84,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/LENOVO/Desktop/RidePlanner/RidePlanner/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/LENOVO/Desktop/RidePlanner/RidePlanner/Views/TaxiCompany/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aUNvbXBhbnlcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/LENOVO/Desktop/RidePlanner/RidePlanner/Views/_ViewImports.cshtml]
