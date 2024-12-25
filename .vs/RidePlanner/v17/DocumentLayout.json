@@ -1,66 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\RidePlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\controllers\\buscompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\controllers\\buscompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\controllers\\buscompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\services\\buscompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\buscompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\viewmodel\\bus\\buscompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\viewmodel\\bus\\buscompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\interfaces\\ibuscompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\interfaces\\ibuscompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\controllers\\taxicompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\controllers\\taxicompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\views\\dashboard\\bus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\views\\dashboard\\bus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\services\\taxicompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\taxicompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\views\\bus\\busschedules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\views\\bus\\busschedules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\interfaces\\itaxicompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\interfaces\\itaxicompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\adminsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\adminsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\adminsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\mappings\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\mappings\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\interfaces\\iauthenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\interfaces\\iauthenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\mappings\\buscompanyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\mappings\\buscompanyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\mappings\\taxiprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\mappings\\busprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\mappings\\busprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\mappings\\taxicompanyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\mappings\\taxicompanyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\mappings\\taxiprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\mappings\\taxiprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\models\\taxirequest\\edittaxirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\mappings\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\mappings\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\wwwroot\\js\\userlist\\usermanagement.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\wwwroot\\js\\userlist\\usermanagement.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\wwwroot\\js\\authenticate\\edituser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\wwwroot\\js\\authenticate\\edituser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\wwwroot\\js\\buscompany\\addcompany.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\wwwroot\\js\\buscompany\\addcompany.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\services\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\interfaces\\ibusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\interfaces\\ibusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\viewmodel\\bus\\buscompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\viewmodel\\bus\\buscompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\interfaces\\ibuscompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\interfaces\\ibuscompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\services\\buscompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\buscompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\controllers\\taxicompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\controllers\\taxicompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\services\\taxicompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\taxicompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\interfaces\\itaxicompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\interfaces\\itaxicompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\interfaces\\iauthenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\interfaces\\iauthenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\models\\taxirequest\\edittaxirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\models\\taxirequest\\edittaxirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\models\\taxirequest\\addtaxirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\admin\\desktop\\rideplanner\\rideplanner\\models\\taxirequest\\addtaxirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\models\\taxirequest\\addtaxirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\mappings\\taxicompanyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\mappings\\taxicompanyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,130 +139,94 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         },
         {
           "DockedWidth": 348,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BusCompanyController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\BusCompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\BusCompanyController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\BusCompanyController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\BusCompanyController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\BusCompanyController.cs",
               "RelativeToolTip": "RidePlanner\\Controllers\\BusCompanyController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T22:48:24.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BusCompanyViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\ViewModel\\Bus\\BusCompanyViewModel.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\ViewModel\\Bus\\BusCompanyViewModel.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\ViewModel\\Bus\\BusCompanyViewModel.cs",
-              "RelativeToolTip": "RidePlanner\\ViewModel\\Bus\\BusCompanyViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:47:21.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IBusCompanyService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IBusCompanyService.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\IBusCompanyService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IBusCompanyService.cs",
-              "RelativeToolTip": "RidePlanner\\Interfaces\\IBusCompanyService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAcwDMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:46:28.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BusCompanyService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Services\\BusCompanyService.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Services\\BusCompanyService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Services\\BusCompanyService.cs",
-              "RelativeToolTip": "RidePlanner\\Services\\BusCompanyService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:44:37.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaxiCompanyController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiCompanyController.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiCompanyController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiCompanyController.cs",
-              "RelativeToolTip": "RidePlanner\\Controllers\\TaxiCompanyController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:39:17.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TaxiCompanyService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiCompanyService.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Services\\TaxiCompanyService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiCompanyService.cs",
-              "RelativeToolTip": "RidePlanner\\Services\\TaxiCompanyService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:38:14.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ITaxiCompanyService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
-              "RelativeToolTip": "RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:36:07.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Program.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Program.cs",
               "RelativeToolTip": "RidePlanner\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABQAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwB4AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T22:33:09.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "Bus.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Dashboard\\Bus.cshtml",
+              "RelativeDocumentMoniker": "RidePlanner\\Views\\Dashboard\\Bus.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Dashboard\\Bus.cshtml",
+              "RelativeToolTip": "RidePlanner\\Views\\Dashboard\\Bus.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T23:33:56.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusSchedules.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Bus\\BusSchedules.cshtml",
+              "RelativeDocumentMoniker": "RidePlanner\\Views\\Bus\\BusSchedules.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Bus\\BusSchedules.cshtml",
+              "RelativeToolTip": "RidePlanner\\Views\\Bus\\BusSchedules.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAACjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T23:30:45.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "adminsettings.json",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\adminsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\adminsettings.json",
               "RelativeDocumentMoniker": "RidePlanner\\adminsettings.json",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\adminsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\adminsettings.json",
               "RelativeToolTip": "RidePlanner\\adminsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-25T22:34:25.057Z",
               "EditorCaption": ""
@@ -214,49 +234,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IAuthenticateService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IAuthenticateService.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\IAuthenticateService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IAuthenticateService.cs",
-              "RelativeToolTip": "RidePlanner\\Interfaces\\IAuthenticateService.cs",
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\UserProfile.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Mappings\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\UserProfile.cs",
+              "RelativeToolTip": "RidePlanner\\Mappings\\UserProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:30:53.074Z",
+              "WhenOpened": "2024-12-25T23:39:32.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BusProfile.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\BusProfile.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Mappings\\BusProfile.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\BusProfile.cs",
+              "RelativeToolTip": "RidePlanner\\Mappings\\BusProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T23:40:16.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminProfile.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\AdminProfile.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Mappings\\AdminProfile.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\AdminProfile.cs",
+              "RelativeToolTip": "RidePlanner\\Mappings\\AdminProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T23:40:32.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AuthenticateService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Services\\AuthenticateService.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Services\\AuthenticateService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Services\\AuthenticateService.cs",
-              "RelativeToolTip": "RidePlanner\\Services\\AuthenticateService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:30:32.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EditTaxiRequest.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\EditTaxiRequest.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\EditTaxiRequest.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\EditTaxiRequest.cs",
-              "RelativeToolTip": "RidePlanner\\Models\\TaxiRequest\\EditTaxiRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:25:55.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "TaxiProfile.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiProfile.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiProfile.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Mappings\\TaxiProfile.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiProfile.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiProfile.cs",
               "RelativeToolTip": "RidePlanner\\Mappings\\TaxiProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -265,29 +285,253 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddTaxiRequest.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\AddTaxiRequest.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\AddTaxiRequest.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\AddTaxiRequest.cs",
-              "RelativeToolTip": "RidePlanner\\Models\\TaxiRequest\\AddTaxiRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "DocumentIndex": 6,
+              "Title": "BusCompanyProfile.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\BusCompanyProfile.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Mappings\\BusCompanyProfile.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\BusCompanyProfile.cs",
+              "RelativeToolTip": "RidePlanner\\Mappings\\BusCompanyProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:25:03.642Z",
+              "WhenOpened": "2024-12-25T23:40:25.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "TaxiCompanyProfile.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
               "RelativeToolTip": "RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T22:21:19.986Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "userManagement.js",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\userList\\userManagement.js",
+              "RelativeDocumentMoniker": "RidePlanner\\wwwroot\\js\\userList\\userManagement.js",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\userList\\userManagement.js",
+              "RelativeToolTip": "RidePlanner\\wwwroot\\js\\userList\\userManagement.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-25T23:38:39.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "editUser.js",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\authenticate\\editUser.js",
+              "RelativeDocumentMoniker": "RidePlanner\\wwwroot\\js\\authenticate\\editUser.js",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\authenticate\\editUser.js",
+              "RelativeToolTip": "RidePlanner\\wwwroot\\js\\authenticate\\editUser.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-25T23:36:35.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "addCompany.js",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\busCompany\\addCompany.js",
+              "RelativeDocumentMoniker": "RidePlanner\\wwwroot\\js\\busCompany\\addCompany.js",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\busCompany\\addCompany.js",
+              "RelativeToolTip": "RidePlanner\\wwwroot\\js\\busCompany\\addCompany.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-25T23:35:05.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_DashboardLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeDocumentMoniker": "RidePlanner\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeToolTip": "RidePlanner\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAvwBgAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T23:32:26.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Dashboard\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "RidePlanner\\Views\\Dashboard\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Dashboard\\Dashboard.cshtml",
+              "RelativeToolTip": "RidePlanner\\Views\\Dashboard\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T23:31:36.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BusService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\BusService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Services\\BusService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\BusService.cs",
+              "RelativeToolTip": "RidePlanner\\Services\\BusService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T23:26:45.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBusService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IBusService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\IBusService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IBusService.cs",
+              "RelativeToolTip": "RidePlanner\\Interfaces\\IBusService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T23:24:46.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\appsettings.json",
+              "RelativeDocumentMoniker": "RidePlanner\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\appsettings.json",
+              "RelativeToolTip": "RidePlanner\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-25T23:15:31.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BusCompanyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\ViewModel\\Bus\\BusCompanyViewModel.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\ViewModel\\Bus\\BusCompanyViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\ViewModel\\Bus\\BusCompanyViewModel.cs",
+              "RelativeToolTip": "RidePlanner\\ViewModel\\Bus\\BusCompanyViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:47:21.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IBusCompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IBusCompanyService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\IBusCompanyService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IBusCompanyService.cs",
+              "RelativeToolTip": "RidePlanner\\Interfaces\\IBusCompanyService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:46:28.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BusCompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\BusCompanyService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Services\\BusCompanyService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\BusCompanyService.cs",
+              "RelativeToolTip": "RidePlanner\\Services\\BusCompanyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:44:37.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaxiCompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiCompanyController.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiCompanyController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiCompanyController.cs",
+              "RelativeToolTip": "RidePlanner\\Controllers\\TaxiCompanyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:39:17.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TaxiCompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiCompanyService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Services\\TaxiCompanyService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiCompanyService.cs",
+              "RelativeToolTip": "RidePlanner\\Services\\TaxiCompanyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:38:14.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ITaxiCompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
+              "RelativeToolTip": "RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:36:07.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAuthenticateService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IAuthenticateService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\IAuthenticateService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IAuthenticateService.cs",
+              "RelativeToolTip": "RidePlanner\\Interfaces\\IAuthenticateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:30:53.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthenticateService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\AuthenticateService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Services\\AuthenticateService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\AuthenticateService.cs",
+              "RelativeToolTip": "RidePlanner\\Services\\AuthenticateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:30:32.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditTaxiRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\EditTaxiRequest.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\EditTaxiRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\EditTaxiRequest.cs",
+              "RelativeToolTip": "RidePlanner\\Models\\TaxiRequest\\EditTaxiRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:25:55.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddTaxiRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\AddTaxiRequest.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\AddTaxiRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\AddTaxiRequest.cs",
+              "RelativeToolTip": "RidePlanner\\Models\\TaxiRequest\\AddTaxiRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:25:03.642Z"
             }
           ]
         }

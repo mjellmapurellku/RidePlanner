@@ -28,6 +28,7 @@ namespace RidePlanner
             builder.Services.AddAutoMapper(typeof(AdminProfile));
             builder.Services.AddScoped<ITaxiCompanyService, TaxiCompanyService>();
             builder.Services.AddScoped<IBusCompanyService, BusCompanyService>();
+            builder.Services.AddScoped<IBusService, BusService>();
             //builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             builder.Services.AddScoped<IAuthenticateService, AuthenticateService>();
             builder.Services.AddDbContext<AppDbContext>(options =>
