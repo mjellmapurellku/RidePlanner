@@ -1,9 +1,13 @@
-﻿using RidePlanner.Models.Entities;
-using RidePlanner.Models.Enums;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using RidePlanner.Models.Entities;
+using RidePlanner.Models.Enums;
 
-namespace RidePlanner.ViewModel.Taxi
+namespace RidePlanner.ViewModel.TaxiModels
 {
+    /// <summary>
+    /// ViewModel for adding a new taxi.
+    /// </summary>
     public class AddTaxiViewModel
     {
         /// <summary>
@@ -21,7 +25,7 @@ namespace RidePlanner.ViewModel.Taxi
         /// Gets or sets the driver's name (required).
         /// </summary>
         [Required]
-        public string DriverName { get; set; }
+        public int? DriverId { get; set; }
 
         /// <summary>
         /// Gets or sets the identifier for the taxi company (required).

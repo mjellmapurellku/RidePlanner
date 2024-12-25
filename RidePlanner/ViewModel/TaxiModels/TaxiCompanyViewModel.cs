@@ -1,5 +1,10 @@
-﻿namespace RidePlanner.ViewModel.Taxi
+﻿using System;
+
+namespace RidePlanner.ViewModel.TaxiModels
 {
+    /// <summary>
+    /// ViewModel for displaying taxi company details.
+    /// </summary>
     public class TaxiCompanyViewModel
     {
         /// <summary>
@@ -16,6 +21,8 @@
         /// Gets or sets the contact information for the taxi company.
         /// </summary>
         public string ContactInfo { get; set; }
+
+        public int UserId { get; set; }
 
         /// <summary>
         /// Gets or sets the date and time when the taxi company was created.

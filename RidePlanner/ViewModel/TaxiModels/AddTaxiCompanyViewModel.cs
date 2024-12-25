@@ -1,7 +1,11 @@
 ﻿using RidePlanner.Models.Entities;
+using System.Collections.Generic;
 
-namespace RidePlanner.ViewModel.Taxi
+namespace RidePlanner.ViewModel.TaxiModels
 {
+    /// <summary>
+    /// ViewModel for adding a new taxi company and associated taxis.
+    /// </summary>
     public class AddTaxiCompanyViewModel
     {
         /// <summary>
@@ -22,7 +26,7 @@ namespace RidePlanner.ViewModel.Taxi
         /// <summary>
         /// Gets or sets the list of taxis associated with the company.
         /// </summary>
-        public List<RidePlanner.Models.Entities.Taxi> Taxis { get; set; } // Përdorimi i emrit të plotë me hapësirën e emrit
+        public List<RidePlanner.Models.Entities.Taxi> Taxis { get; set; } 
 
         /// <summary>
         /// Gets or sets the ViewModel for adding a new taxi.
