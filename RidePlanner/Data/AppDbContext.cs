@@ -20,6 +20,10 @@ namespace RidePlanner.Data
         public DbSet<BusCompany> BusCompanies { get; set; }
         public DbSet<Buses> Buses { get; set; }
         public DbSet<BusRoutes> BusRoutes { get; set; }
+
+
+        public DbSet<BaseReview> Reviews { get; set; }
+        public DbSet<UserReview> UserReviews { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -38,13 +42,41 @@ namespace RidePlanner.Data
     private void ApplyGlobalQueryFilters(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>()
-            .HasQueryFilter(u => !u.IsDeleted);
+        .HasQueryFilter(u => !u.IsDeleted);
 
             modelBuilder.Entity<BusCompany>()
-           .HasQueryFilter(b => !b.IsDeleted);
+                .HasQueryFilter(bc => !bc.IsDeleted);
+
+            modelBuilder.Entity<Buses>()
+                .HasQueryFilter(b => !b.BusCompany.IsDeleted);
+
+            modelBuilder.Entity<BusRoutes>()
+                .HasQueryFilter(b => !b.BusCompany.IsDeleted);
 
             modelBuilder.Entity<TaxiCompany>()
-            .HasQueryFilter(tc => !tc.IsDeleted);
+               .HasQueryFilter(tc => !tc.IsDeleted);
+
+            modelBuilder.Entity<BusReservations>()
+                .HasQueryFilter(br => !br.User.IsDeleted);
+
+            modelBuilder.Entity<TaxiBookings>()
+                .HasQueryFilter(tb => !tb.TaxiCompany.IsDeleted);
+
+            modelBuilder.Entity<TaxiReservations>()
+                 .HasQueryFilter(tr => !tr.TaxiCompany.IsDeleted);
+
+            modelBuilder.Entity<Taxi>()
+                 .HasQueryFilter(t => !t.TaxiCompany.IsDeleted);
+
+            modelBuilder.Entity<BusSchedule>()
+                .HasQueryFilter(bs => !bs.Bus.BusCompany.IsDeleted);
+
+            modelBuilder.Entity<BaseReview>()
+             .HasDiscriminator<string>("ReviewType")
+             .HasValue<BaseReview>("BaseReview")
+             .HasValue<UserReview>("UserReview");
+
+            base.OnModelCreating(modelBuilder);
         }
 
     }

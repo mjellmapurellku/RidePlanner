@@ -60,13 +60,16 @@ namespace RidePlanner.Data.Configurations
                 .HasForeignKey(br => br.ScheduleId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-
             builder.HasOne(br => br.User)
-               .WithMany(u => u.BusReservations)
-               .HasForeignKey(br => br.UserId)
-               .OnDelete(DeleteBehavior.Restrict)
-               .IsRequired();
+                .WithMany(u => u.BusReservations)
+                .HasForeignKey(br => br.UserId)
+                .OnDelete(DeleteBehavior.Restrict)
+                .IsRequired();
 
+            builder.HasOne(br => br.BusCompany)
+                    .WithMany(b => b.BusReservations)
+                    .HasForeignKey(br => br.BusCompanyId)
+                    .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

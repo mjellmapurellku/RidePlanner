@@ -69,6 +69,11 @@ namespace RidePlanner.Models.Entities
         public int UserId { get; set; }
 
         /// <summary>
+        /// The identifier of the Driver who is assigned for the booking.
+        /// </summary>
+        public int? DriverId { get; set; }
+
+        /// <summary>
         /// The identifier of the taxi assigned to the booking, if applicable.
         /// </summary>
         public int? TaxiId { get; set; }
@@ -78,10 +83,6 @@ namespace RidePlanner.Models.Entities
         /// </summary>
         public ReservationStatus Status { get; set; } = ReservationStatus.Pending;
 
-        /// <summary>
-        /// The collection of notifications associated with the booking.
-        /// </summary>
-        //public ICollection<Notifications> Notifications { get; set; } = new List<Notifications>();
 
         /// <summary>
         /// The taxi company associated with the booking.

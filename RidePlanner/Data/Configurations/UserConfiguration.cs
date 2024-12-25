@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 using RidePlanner.Models.Entities;
+using RidePlanner.Models.Enums;
 
 namespace RidePlanner.Data.Configurations
 {
@@ -43,6 +44,9 @@ namespace RidePlanner.Data.Configurations
             builder.Property(u => u.Role)
                 .IsRequired();
 
+            builder.Property(u => u.CompanyId)
+               .IsRequired(false);
+
             builder.Property(u => u.IsAdmin)
                 .HasDefaultValue(false);
 
@@ -79,10 +83,9 @@ namespace RidePlanner.Data.Configurations
                 .WithOne(tb => tb.User)
                 .HasForeignKey(tb => tb.UserId);
 
-            //builder.HasMany(u => u.Notifications)
-              //  .WithOne(n => n.User)
-                //.HasForeignKey(n => n.UserId)
-                //.OnDelete(DeleteBehavior.Restrict);
+            builder.Property(u => u.BusinessType)
+                 .IsRequired()
+                 .HasDefaultValue(BusinessType.None);
         }
     }
 }

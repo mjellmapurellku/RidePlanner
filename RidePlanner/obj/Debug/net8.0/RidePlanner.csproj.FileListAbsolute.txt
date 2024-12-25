@@ -1,3 +1,12 @@
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.RazorAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.RazorAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.sourcelink.json
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\adminsettings.json
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\appsettings.json
@@ -8,6 +17,7 @@ C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\RidePlanner.run
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\RidePlanner.dll
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\RidePlanner.pdb
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\Humanizer.dll
@@ -144,15 +154,6 @@ C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\runtimes\win\li
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.csproj.AssemblyReference.cache
-C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.AssemblyInfo.cs
-C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.RazorAssemblyInfo.cache
-C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.RazorAssemblyInfo.cs
-C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\RidePlanner.sourcelink.json
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\LENOVO\Desktop\RidePlanner\RidePlanner\obj\Debug\net8.0\staticwebassets\msbuild.RidePlanner.Microsoft.AspNetCore.StaticWebAssets.props

@@ -12,8 +12,8 @@ using RidePlanner.Data;
 namespace RidePlanner.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241214233755_addcompany")]
-    partial class addcompany
+    [Migration("20241225205711_BaseReview")]
+    partial class BaseReview
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,38 @@ namespace RidePlanner.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.BaseReview", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ReviewType")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Reviews");
+
+                    b.HasDiscriminator<string>("ReviewType").HasValue("BaseReview");
+
+                    b.UseTphMappingStrategy();
+                });
 
             modelBuilder.Entity("RidePlanner.Models.Entities.BusCompany", b =>
                 {
@@ -50,7 +82,12 @@ namespace RidePlanner.Migrations
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("BusCompanyId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("BusCompanies");
                 });
@@ -62,6 +99,9 @@ namespace RidePlanner.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReservationId"));
+
+                    b.Property<int?>("BusCompanyId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
@@ -95,6 +135,8 @@ namespace RidePlanner.Migrations
 
                     b.HasKey("ReservationId");
 
+                    b.HasIndex("BusCompanyId");
+
                     b.HasIndex("ScheduleId");
 
                     b.HasIndex("UserId");
@@ -109,6 +151,9 @@ namespace RidePlanner.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RouteId"));
+
+                    b.Property<int>("BusCompanyId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -131,6 +176,8 @@ namespace RidePlanner.Migrations
 
                     b.HasKey("RouteId");
 
+                    b.HasIndex("BusCompanyId");
+
                     b.ToTable("BusRoutes");
                 });
 
@@ -146,6 +193,9 @@ namespace RidePlanner.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int>("AvailableSeats")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BusCompanyId")
                         .HasColumnType("int");
 
                     b.Property<int>("BusId")
@@ -173,6 +223,8 @@ namespace RidePlanner.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("ScheduleId");
+
+                    b.HasIndex("BusCompanyId");
 
                     b.HasIndex("BusId");
 
@@ -230,13 +282,13 @@ namespace RidePlanner.Migrations
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("GETUTCDATE()");
 
-                    b.Property<string>("DriverName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<int?>("DriverId")
+                        .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<string>("LicensePlate")
                         .IsRequired()
@@ -253,6 +305,10 @@ namespace RidePlanner.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("TaxiId");
+
+                    b.HasIndex("DriverId")
+                        .IsUnique()
+                        .HasFilter("[DriverId] IS NOT NULL");
 
                     b.HasIndex("LicensePlate")
                         .IsUnique();
@@ -279,6 +335,9 @@ namespace RidePlanner.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.Property<int?>("DriverId")
+                        .HasColumnType("int");
 
                     b.Property<string>("DropoffLocation")
                         .IsRequired()
@@ -358,10 +417,15 @@ namespace RidePlanner.Migrations
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("TaxiCompanyId");
 
                     b.HasIndex("CompanyName")
                         .IsUnique();
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("TaxiCompanies");
                 });
@@ -441,6 +505,14 @@ namespace RidePlanner.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
 
+                    b.Property<int>("BusinessType")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
+
+                    b.Property<int?>("CompanyId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
@@ -484,8 +556,38 @@ namespace RidePlanner.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("RidePlanner.Models.Entities.UserReview", b =>
+                {
+                    b.HasBaseType("RidePlanner.Models.Entities.BaseReview");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("UserReview");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.BusCompany", b =>
+                {
+                    b.HasOne("RidePlanner.Models.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("RidePlanner.Models.Entities.BusReservations", b =>
                 {
+                    b.HasOne("RidePlanner.Models.Entities.BusCompany", "BusCompany")
+                        .WithMany("BusReservations")
+                        .HasForeignKey("BusCompanyId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("RidePlanner.Models.Entities.BusSchedule", "Schedule")
                         .WithMany()
                         .HasForeignKey("ScheduleId")
@@ -498,13 +600,32 @@ namespace RidePlanner.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.Navigation("BusCompany");
+
                     b.Navigation("Schedule");
 
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("RidePlanner.Models.Entities.BusRoutes", b =>
+                {
+                    b.HasOne("RidePlanner.Models.Entities.BusCompany", "BusCompany")
+                        .WithMany("BusRoutes")
+                        .HasForeignKey("BusCompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("BusCompany");
+                });
+
             modelBuilder.Entity("RidePlanner.Models.Entities.BusSchedule", b =>
                 {
+                    b.HasOne("RidePlanner.Models.Entities.BusCompany", "BusCompany")
+                        .WithMany("BusSchedules")
+                        .HasForeignKey("BusCompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("RidePlanner.Models.Entities.Buses", "Bus")
                         .WithMany("BusSchedules")
                         .HasForeignKey("BusId")
@@ -518,6 +639,8 @@ namespace RidePlanner.Migrations
                         .IsRequired();
 
                     b.Navigation("Bus");
+
+                    b.Navigation("BusCompany");
 
                     b.Navigation("Route");
                 });
@@ -535,11 +658,18 @@ namespace RidePlanner.Migrations
 
             modelBuilder.Entity("RidePlanner.Models.Entities.Taxi", b =>
                 {
+                    b.HasOne("RidePlanner.Models.Entities.User", "Driver")
+                        .WithMany()
+                        .HasForeignKey("DriverId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("RidePlanner.Models.Entities.TaxiCompany", "TaxiCompany")
                         .WithMany("Taxis")
                         .HasForeignKey("TaxiCompanyId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("Driver");
 
                     b.Navigation("TaxiCompany");
                 });
@@ -554,7 +684,8 @@ namespace RidePlanner.Migrations
 
                     b.HasOne("RidePlanner.Models.Entities.Taxi", "Taxi")
                         .WithMany("TaxiBookings")
-                        .HasForeignKey("TaxiId");
+                        .HasForeignKey("TaxiId")
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("RidePlanner.Models.Entities.User", "User")
                         .WithMany("TaxiBookings")
@@ -565,6 +696,17 @@ namespace RidePlanner.Migrations
                     b.Navigation("Taxi");
 
                     b.Navigation("TaxiCompany");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("RidePlanner.Models.Entities.TaxiCompany", b =>
+                {
+                    b.HasOne("RidePlanner.Models.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });
@@ -597,6 +739,12 @@ namespace RidePlanner.Migrations
 
             modelBuilder.Entity("RidePlanner.Models.Entities.BusCompany", b =>
                 {
+                    b.Navigation("BusReservations");
+
+                    b.Navigation("BusRoutes");
+
+                    b.Navigation("BusSchedules");
+
                     b.Navigation("Buses");
                 });
 

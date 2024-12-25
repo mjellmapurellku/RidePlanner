@@ -64,9 +64,9 @@ namespace RidePlanner.Data.Configurations
                 .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasMany(b => b.BusSchedules)
-                    .WithOne(bs => bs.Bus)
-                    .HasForeignKey(bs => bs.BusId)
-                    .OnDelete(DeleteBehavior.Restrict);
+                   .WithOne(bs => bs.Bus)
+                   .HasForeignKey(bs => bs.BusId)
+                   .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

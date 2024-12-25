@@ -8,6 +8,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RidePlanners.Filters;
 
 namespace RidePlanner
 {
@@ -45,6 +46,16 @@ namespace RidePlanner
 
             builder.Services.AddScoped<AdminOnlyFilter>();
 
+            builder.Services.AddScoped<AdminBaseFilter>();
+
+            builder.Services.AddScoped<LoginRequiredFilter>();
+
+            builder.Services.AddScoped<BusinessOnlyFilter>(provider =>
+            {
+                var httpContextAccessor = provider.GetRequiredService<IHttpContextAccessor>();
+                return new BusinessOnlyFilter("", httpContextAccessor);
+            });
+
             var app = builder.Build();
 
             using (var scope = app.Services.CreateScope())
@@ -62,12 +73,12 @@ namespace RidePlanner
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseAuthorization();
             app.UseRouting();
 
             app.UseSession();
 
-            app.UseAuthorization();
+        
 
             app.MapControllerRoute(
                 name: "default",

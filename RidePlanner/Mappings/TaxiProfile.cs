@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using RidePlanner.Models.Entities;
 using RidePlanner.ViewModel.Taxi;
-using RidePlanner.Models.TaxiRequests;
+using RidePlanner.Models.TaxiRequest;
 
 namespace RidePlanner.Mappings
 {
