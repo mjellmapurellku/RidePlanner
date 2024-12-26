@@ -9,13 +9,10 @@ using RidePlanner.Models.Utilities;
 using System.Threading.Tasks;
 using System.Linq;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-using RidePlanner.Filters;
 using RidePlanner.Interfaces;
-using RidePlanner.Models.Enums;
-using RidePlanner.Models.TaxiRequest;
-using RidePlanner.Models.Utilities;
 
-namespace WebApplication1.Controllers
+
+namespace RidePlanner.Controllers
 {
     [Route("Admin/TaxiCompany")]
     [ServiceFilter(typeof(AdminOnlyFilter))]
