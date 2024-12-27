@@ -8,8 +8,9 @@ using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using RidePlanners.Filters;
+
 using RidePlanner.Interfaces;
+using pentasharp.Services;
 
 namespace RidePlanner
 {
@@ -29,6 +30,7 @@ namespace RidePlanner
             builder.Services.AddScoped<ITaxiCompanyService, TaxiCompanyService>();
             builder.Services.AddScoped<IBusCompanyService, BusCompanyService>();
             builder.Services.AddScoped<IBusService, BusService>();
+            builder.Services.AddScoped<IBusScheduleService, BusScheduleService>();
             //builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             builder.Services.AddScoped<IAuthenticateService, AuthenticateService>();
             builder.Services.AddDbContext<AppDbContext>(options =>

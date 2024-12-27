@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 
-namespace RidePlanners.Filters
+namespace RidePlanner.Filters
 {
     public class BusinessOnlyFilter : ActionFilterAttribute
     {
