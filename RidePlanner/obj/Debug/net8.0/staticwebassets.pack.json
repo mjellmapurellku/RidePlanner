@@ -49,6 +49,14 @@
       "PackagePath": "staticwebassets\\js\\busCompany\\addCompany.js"
     },
     {
+      "Id": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\busScheduleSearch\\busSchedule.js",
+      "PackagePath": "staticwebassets\\js\\busScheduleSearch\\busSchedule.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\busSchedule\\busReservationManagement.js",
+      "PackagePath": "staticwebassets\\js\\busSchedule\\busReservationManagement.js"
+    },
+    {
       "Id": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\busSchedule\\busScheduleManagement.js",
       "PackagePath": "staticwebassets\\js\\busSchedule\\busScheduleManagement.js"
     },

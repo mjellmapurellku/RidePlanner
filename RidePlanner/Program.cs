@@ -1,3 +1,4 @@
+
 using Microsoft.EntityFrameworkCore;
 using RidePlanner.Data;
 using RidePlanner.Services;
@@ -33,6 +34,8 @@ namespace RidePlanner
             builder.Services.AddScoped<IBusScheduleService, BusScheduleService>();
             //builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             builder.Services.AddScoped<IAuthenticateService, AuthenticateService>();
+            builder.Services.AddScoped<IBusReservationService, BusReservationService>();
+            builder.Services.AddScoped<ISearchBusScheduleService, SearchBusScheduleService>();
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

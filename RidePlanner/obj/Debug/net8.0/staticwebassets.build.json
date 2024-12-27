@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pZFuJy2QH+0qQS8JE4/hWcUzLVf4KP7u2QRm/h7Xgv4=",
+  "Hash": "X3EDnh+3Tkd7KR9UdySM5cvQlnMPE91TYc5jgY3T1KU=",
   "Source": "RidePlanner",
   "BasePath": "_content/RidePlanner",
   "Mode": "Default",
@@ -264,6 +264,25 @@
       "OriginalItemSpec": "wwwroot\\js\\busCompany\\addCompany.js"
     },
     {
+      "Identity": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\busSchedule\\busReservationManagement.js",
+      "SourceId": "RidePlanner",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\",
+      "BasePath": "_content/RidePlanner",
+      "RelativePath": "js/busSchedule/busReservationManagement.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\busSchedule\\busReservationManagement.js"
+    },
+    {
       "Identity": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\busSchedule\\busScheduleManagement.js",
       "SourceId": "RidePlanner",
       "SourceType": "Discovered",
@@ -281,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\busSchedule\\busScheduleManagement.js"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\busScheduleSearch\\busSchedule.js",
+      "SourceId": "RidePlanner",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\",
+      "BasePath": "_content/RidePlanner",
+      "RelativePath": "js/busScheduleSearch/busSchedule.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\busScheduleSearch\\busSchedule.js"
     },
     {
       "Identity": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\core\\bootstrap.min.js",

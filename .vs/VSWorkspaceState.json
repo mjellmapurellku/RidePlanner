@@ -2,14 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\RidePlanner",
-    "\\RidePlanner\\Data",
-    "\\RidePlanner\\Data\\Configurations",
-    "\\RidePlanner\\Filters",
-    "\\RidePlanner\\Interfaces",
-    "\\RidePlanner\\Mappings",
-    "\\RidePlanner\\Views",
-    "\\RidePlanner\\Views\\Bus",
-    "\\RidePlanner\\Views\\BusSchedule"
+    "\\RidePlanner\\ViewModel\\Authenticate",
+    "\\RidePlanner\\ViewModel\\Bus",
+    "\\RidePlanner\\ViewModel\\BusReservation",
+    "\\RidePlanner\\ViewModel\\BusSchedul",
+    "\\RidePlanner\\Views\\Authenticate",
+    "\\RidePlanner\\Views\\Dashboard",
+    "\\RidePlanner\\Views\\Home",
+    "\\RidePlanner\\Views\\Shared"
   ],
   "SelectedNode": "\\RidePlanner\\Program.cs",
   "PreviewInSolutionExplorer": false
