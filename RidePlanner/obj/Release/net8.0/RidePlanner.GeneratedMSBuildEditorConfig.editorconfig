@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRlXFVzZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/admin/Desktop/RidePlanner/RidePlanner/Views/BusSchedule/BusScheduleManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzU2NoZWR1bGVcQnVzU2NoZWR1bGVNYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/admin/Desktop/RidePlanner/RidePlanner/Views/Bus/BusSchedules.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXEJ1c1NjaGVkdWxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,10 +68,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/admin/Desktop/RidePlanner/RidePlanner/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/admin/Desktop/RidePlanner/RidePlanner/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/admin/Desktop/RidePlanner/RidePlanner/Views/Home/Services.cshtml]
