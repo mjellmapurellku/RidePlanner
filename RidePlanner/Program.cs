@@ -31,6 +31,7 @@ namespace RidePlanner
             builder.Services.AddScoped<IBusCompanyService, BusCompanyService>();
             builder.Services.AddScoped<IBusService, BusService>();
             builder.Services.AddScoped<IBusScheduleService, BusScheduleService>();
+            builder.Services.AddScoped<ISearchBusScheduleService, SearchBusScheduleService>();
             //builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             builder.Services.AddScoped<IAuthenticateService, AuthenticateService>();
             builder.Services.AddDbContext<AppDbContext>(options =>
