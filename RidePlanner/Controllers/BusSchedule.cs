@@ -8,7 +8,7 @@ using RidePlanner.ViewModel.BusReservation;
 using RidePlanner.Models.Enums;
 using RidePlanner.Models.Utilities;
 
-namespace     RidePlanner.Controllers
+namespace RidePlanner.Controllers
 {
     [Route("api/BusSchedule")]
     [TypeFilter(typeof(BusinessOnlyFilter), Arguments = new object[] { "BusCompany" })]

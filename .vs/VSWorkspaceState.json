@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RidePlanner",
+    "\\RidePlanner\\Data",
+    "\\RidePlanner\\Data\\Configurations",
+    "\\RidePlanner\\Filters",
+    "\\RidePlanner\\Interfaces",
+    "\\RidePlanner\\Mappings",
+    "\\RidePlanner\\Views",
+    "\\RidePlanner\\Views\\Bus",
+    "\\RidePlanner\\Views\\BusSchedule"
   ],
-  "SelectedNode": "\\RidePlanner.sln",
+  "SelectedNode": "\\RidePlanner\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
