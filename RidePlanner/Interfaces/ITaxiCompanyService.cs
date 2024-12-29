@@ -3,7 +3,7 @@ using RidePlanner.Models.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace RidePlanner.Interfaces
+namespace RidePlanner.Services
 {
     /// <summary>
     /// Provides functionality for managing taxi companies in the application.
