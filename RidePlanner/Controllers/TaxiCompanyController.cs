@@ -1,16 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using RidePlanner.Models.Enums;
-using RidePlanner.Filters;
 using RidePlanner.Data;
 using RidePlanner.Services;
-using RidePlanner.Models.TaxiRequest;
 using RidePlanner.Models.Utilities;
 using System.Threading.Tasks;
 using System.Linq;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using RidePlanner.Filters;
 using RidePlanner.Interfaces;
-
+using RidePlanner.Models.Enums;
+using RidePlanner.Models.TaxiRequest;
 
 namespace RidePlanner.Controllers
 {
