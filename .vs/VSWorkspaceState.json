@@ -2,15 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\RidePlanner",
-    "\\RidePlanner\\ViewModel\\Authenticate",
-    "\\RidePlanner\\ViewModel\\Bus",
-    "\\RidePlanner\\ViewModel\\BusReservation",
-    "\\RidePlanner\\ViewModel\\BusSchedul",
-    "\\RidePlanner\\Views\\Authenticate",
-    "\\RidePlanner\\Views\\Dashboard",
-    "\\RidePlanner\\Views\\Home",
-    "\\RidePlanner\\Views\\Shared"
+    "\\RidePlanner\\Services"
   ],
-  "SelectedNode": "\\RidePlanner\\Program.cs",
+  "SelectedNode": "\\RidePlanner\\adminsettings.json",
   "PreviewInSolutionExplorer": false
 }
