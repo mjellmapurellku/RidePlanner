@@ -3,8 +3,10 @@
     "",
     "\\RidePlanner",
     "\\RidePlanner\\Controllers",
-    "\\RidePlanner\\Services"
+    "\\RidePlanner\\Services",
+    "\\RidePlanner\\Views",
+    "\\RidePlanner\\Views\\Taxi"
   ],
-  "SelectedNode": "\\RidePlanner\\Controllers\\TaxiReservationController.cs",
+  "SelectedNode": "\\RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml",
   "PreviewInSolutionExplorer": false
 }
