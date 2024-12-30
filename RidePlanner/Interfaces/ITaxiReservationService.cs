@@ -33,8 +33,13 @@ namespace RidePlanner.Interfaces
         /// <param name="taxiCompanyId">The ID of the taxi company.</param>
         /// <returns>The model representing a list of taxis.</returns>
         Task<List<TaxiRequest>> GetTaxisByTaxiCompanyAsync(int taxiCompanyId);
-
-     
+        /// <summary>
+        /// Updates an existing taxi reservation.
+        /// </summary>
+        /// <param name="reservationId">The ID of the reservation to update.</param>
+        /// <param name="model">The model containing updated reservation details.</param>
+        /// <returns>The model representing a boolean indicating whether the update was successful.</returns>
+        Task<bool> UpdateReservationAsync(int reservationId, UpdateTaxiReservationViewModel model);
 
         /// <summary>
         /// Retrieves a list of taxi reservations for a specific user.
