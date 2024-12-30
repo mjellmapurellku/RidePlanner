@@ -5,7 +5,7 @@ using RidePlanner.Interfaces;
 using RidePlanner.Models.Entities;
 using RidePlanner.Models.Enums;
 using RidePlanner.Models.TaxiRequest;
-using WebApplication1.Filters;
+using RidePlanner.Filters;
 
 namespace RidePlanner.Controllers
 {
