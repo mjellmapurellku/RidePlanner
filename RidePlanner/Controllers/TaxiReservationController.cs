@@ -29,7 +29,13 @@ namespace RidePlanner.Controllers
 
             return Ok(new { success = true, companies = taxiCompanies });
         }
+        [ServiceFilter(typeof(LoginRequiredFilter))]
+        [HttpPost("CreateReservation")]
+        public async Task<IActionResult> CreateReservation([FromBody] TaxiReservationViewModel model)
+        {
+            return await _taxiReservationService.CreateReservationAsync(model);
+        }
 
-       
+
     }
 }
