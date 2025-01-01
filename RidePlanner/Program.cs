@@ -31,6 +31,7 @@ namespace RidePlanner
             builder.Services.AddScoped<ITaxiCompanyService, TaxiCompanyService>();
             builder.Services.AddScoped<ITaxiService, TaxiService>();
             builder.Services.AddScoped<ITaxiReservationService, TaxiReservationService>();
+            builder.Services.AddScoped<ITaxiBookingService, TaxiBookingService>();
             builder.Services.AddScoped<IDriverService, DriverService>();
             builder.Services.AddScoped<IBusCompanyService, BusCompanyService>();
             builder.Services.AddScoped<IBusService, BusService>();
