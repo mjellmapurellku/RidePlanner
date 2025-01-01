@@ -1,34 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\RidePlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\services\\taxiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\taxiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\services\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiReservationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Controllers\\TaxiReservationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\interfaces\\itaxiservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\interfaces\\itaxiservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\controllers\\businesstaxicompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\controllers\\businesstaxicompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\controllers\\addtaxidrivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\controllers\\addtaxidrivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiReservationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Services\\TaxiReservationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\mappings\\taxiprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\mappings\\taxiprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\TaxiReservationViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Models\\TaxiRequest\\TaxiReservationViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\wwwroot\\js\\taxicompany\\addcompany.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\wwwroot\\js\\taxicompany\\addcompany.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\UpdateTaxiReservationViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Models\\TaxiRequest\\UpdateTaxiReservationViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiReservationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Interfaces\\ITaxiReservationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiCompanyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Interfaces\\ITaxiCompanyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiCompanyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Controllers\\TaxiCompanyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiManagmentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Controllers\\TaxiManagmentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Services\\TaxiService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiCompanyProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Mappings\\TaxiCompanyProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Mappings\\TaxiProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\ManageTaxiCompanyRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Models\\TaxiRequest\\ManageTaxiCompanyRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\DriverService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Services\\DriverService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IDriverService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Interfaces\\IDriverService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiServise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Interfaces\\ITaxiServise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\BusinessTaxiCompanyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Controllers\\BusinessTaxiCompanyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\AddTaxiDriverController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RidePlanner\\Controllers\\AddTaxiDriverController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,49 +105,238 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaxiReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml",
+              "RelativeDocumentMoniker": "RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml",
+              "RelativeToolTip": "RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T15:12:14.331Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TaxiReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiReservationController.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiReservationController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiReservationController.cs",
+              "RelativeToolTip": "RidePlanner\\Controllers\\TaxiReservationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T01:09:54.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Program.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Program.cs",
+              "RelativeToolTip": "RidePlanner\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T23:37:01.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaxiReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiReservationService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Services\\TaxiReservationService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiReservationService.cs",
+              "RelativeToolTip": "RidePlanner\\Services\\TaxiReservationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T00:52:50.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaxiReservationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\TaxiReservationViewModel.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\TaxiReservationViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\TaxiReservationViewModel.cs",
+              "RelativeToolTip": "RidePlanner\\Models\\TaxiRequest\\TaxiReservationViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T00:43:31.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\appsettings.json",
+              "RelativeDocumentMoniker": "RidePlanner\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\appsettings.json",
+              "RelativeToolTip": "RidePlanner\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-29T23:21:17.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateTaxiReservationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\UpdateTaxiReservationViewModel.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\UpdateTaxiReservationViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\UpdateTaxiReservationViewModel.cs",
+              "RelativeToolTip": "RidePlanner\\Models\\TaxiRequest\\UpdateTaxiReservationViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T00:49:33.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITaxiReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiReservationService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\ITaxiReservationService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiReservationService.cs",
+              "RelativeToolTip": "RidePlanner\\Interfaces\\ITaxiReservationService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCkAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T00:41:05.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITaxiCompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
+              "RelativeToolTip": "RidePlanner\\Interfaces\\ITaxiCompanyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T23:57:11.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaxiCompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiCompanyController.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiCompanyController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiCompanyController.cs",
+              "RelativeToolTip": "RidePlanner\\Controllers\\TaxiCompanyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T23:54:22.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaxiManagmentController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiManagmentController.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiManagmentController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiManagmentController.cs",
+              "RelativeToolTip": "RidePlanner\\Controllers\\TaxiManagmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T23:51:18.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaxiService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Services\\TaxiService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\TaxiService.cs",
+              "RelativeToolTip": "RidePlanner\\Services\\TaxiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T00:22:57.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaxiCompanyProfile.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
+              "RelativeToolTip": "RidePlanner\\Mappings\\TaxiCompanyProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T23:35:36.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaxiProfile.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiProfile.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Mappings\\TaxiProfile.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiProfile.cs",
+              "RelativeToolTip": "RidePlanner\\Mappings\\TaxiProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T00:11:59.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManageTaxiCompanyRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\ManageTaxiCompanyRequest.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\ManageTaxiCompanyRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\ManageTaxiCompanyRequest.cs",
+              "RelativeToolTip": "RidePlanner\\Models\\TaxiRequest\\ManageTaxiCompanyRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T23:33:42.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "DriverService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Services\\DriverService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\DriverService.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Services\\DriverService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Services\\DriverService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Services\\DriverService.cs",
               "RelativeToolTip": "RidePlanner\\Services\\DriverService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T00:23:45.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaxiService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Services\\TaxiService.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Services\\TaxiService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Services\\TaxiService.cs",
-              "RelativeToolTip": "RidePlanner\\Services\\TaxiService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAJAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "IDriverService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IDriverService.cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\IDriverService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IDriverService.cs",
+              "RelativeToolTip": "RidePlanner\\Interfaces\\IDriverService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:22:57.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T23:24:38.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "ITaxiServise.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiServise.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiServise.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\ITaxiServise.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiServise.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiServise.cs",
               "RelativeToolTip": "RidePlanner\\Interfaces\\ITaxiServise.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T00:20:29.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "BusinessTaxiCompanyController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Controllers\\BusinessTaxiCompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\BusinessTaxiCompanyController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\BusinessTaxiCompanyController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Controllers\\BusinessTaxiCompanyController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\BusinessTaxiCompanyController.cs",
               "RelativeToolTip": "RidePlanner\\Controllers\\BusinessTaxiCompanyController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAwwCUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,11 +344,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
               "Title": "AddTaxiDriverController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Controllers\\AddTaxiDriverController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\AddTaxiDriverController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\AddTaxiDriverController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Controllers\\AddTaxiDriverController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\AddTaxiDriverController.cs",
               "RelativeToolTip": "RidePlanner\\Controllers\\AddTaxiDriverController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,37 +356,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "addCompany.js",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
               "RelativeDocumentMoniker": "RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
               "RelativeToolTip": "RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAPoBAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-12-29T00:17:08.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaxiProfile.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Mappings\\TaxiProfile.cs",
-              "RelativeDocumentMoniker": "RidePlanner\\Mappings\\TaxiProfile.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Mappings\\TaxiProfile.cs",
-              "RelativeToolTip": "RidePlanner\\Mappings\\TaxiProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:11:59.054Z"
             }
           ]
         },
         {
-          "DockedWidth": 310,
+          "DockedWidth": 505,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
