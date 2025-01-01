@@ -1,24 +1,28 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RidePlanner.Services;
+using System.Diagnostics;
+using RidePlanner.Models;
 using RidePlanner.Filters;
+using Microsoft.AspNetCore.Authorization;
 using RidePlanner.Interfaces;
+using RidePlanner.Models.DTOs;
 using RidePlanner.Models.Enums;
 using RidePlanner.Models.TaxiRequest;
 using RidePlanner.Models.Utilities;
+using RidePlanner.Services;
 
-namespace RidePlanner.Controllers
+namespace WebApplication1.Controllers
 {
     [TypeFilter(typeof(BusinessOnlyFilter), Arguments = new object[] { "TaxiCompany" })]
     [Route("Business/TaxiManagement")]
     public class TaxiManagementController : Controller
     {
-       
+        private readonly ITaxiBookingService _taxiBookingService;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly ITaxiReservationService _taxiReservationService;
 
-        public TaxiManagementController( IHttpContextAccessor httpContextAccessor, ITaxiReservationService taxiReservationService)
+        public TaxiManagementController(ITaxiBookingService taxiBookingService, IHttpContextAccessor httpContextAccessor, ITaxiReservationService taxiReservationService)
         {
-          
+            _taxiBookingService = taxiBookingService;
             _httpContextAccessor = httpContextAccessor;
             _taxiReservationService = taxiReservationService;
         }
@@ -35,7 +39,38 @@ namespace RidePlanner.Controllers
             return View();
         }
 
+        [HttpGet("GetBookings")]
+        public async Task<IActionResult> GetBookings()
+        {
+            var bookings = await _taxiBookingService.GetAllBookingsAsync();
 
+            return Ok(ResponseFactory.SuccessResponse(ResponseMessages.Success, bookings));
+        }
+
+        [HttpGet("GetBooking")]
+        public async Task<IActionResult> GetBookingById(int id)
+        {
+            var booking = await _taxiBookingService.GetBookingByIdAsync(id);
+            if (booking == null)
+            {
+                return NotFound(ResponseFactory.ErrorResponse(ResponseCodes.NotFound, ResponseMessages.NotFound));
+            }
+
+            return Ok(ResponseFactory.SuccessResponse(ResponseMessages.Success, booking));
+        }
+
+        [HttpPut("UpdateBooking")]
+        public async Task<IActionResult> UpdateBooking([FromBody] EditTaxiBookingViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ResponseFactory.ErrorResponse(ResponseCodes.InvalidData, ResponseMessages.InvalidData));
+
+            var success = await _taxiBookingService.UpdateBookingAsync(model);
+            if (!success)
+                return NotFound(ResponseFactory.ErrorResponse(ResponseCodes.NotFound, "Booking not found."));
+
+            return Ok(ResponseFactory.SuccessResponse("Booking updated successfully.", success));
+        }
 
         [HttpGet("GetReservations")]
         public async Task<IActionResult> GetReservations()
