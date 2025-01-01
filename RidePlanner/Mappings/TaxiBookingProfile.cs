@@ -13,7 +13,6 @@ namespace RidePlanner.Mapping
             CreateMap<CreateBookingViewModel, TaxiBookings>()
                 .ForMember(dest => dest.Status, opt => opt.MapFrom(src => BookingStatus.Pending))
                 .ForMember(dest => dest.TaxiId, opt => opt.Ignore())
-                .ForMember(dest => dest.Notifications, opt => opt.Ignore())
                 .ForMember(dest => dest.PassengerCount, opt => opt.MapFrom(src => src.PassengerCount));
 
 
