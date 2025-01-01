@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\js\\soft-ui-dashboard.min.js"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiBooking\\taxiBooking.js",
+      "PackagePath": "staticwebassets\\js\\taxiBooking\\taxiBooking.js"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
       "PackagePath": "staticwebassets\\js\\taxiCompany\\addCompany.js"
     },

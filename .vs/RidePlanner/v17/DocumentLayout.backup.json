@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\wwwroot\\js\\taxicompany\\addcompany.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\wwwroot\\js\\taxicompany\\addcompany.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\views\\taxi\\taxibookingmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\views\\taxi\\taxibookingmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\user\\onedrive\\documents\\github\\rideplanner\\rideplanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -47,6 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "addCompany.js",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
+              "RelativeDocumentMoniker": "RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
+              "RelativeToolTip": "RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-01T16:41:02.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaxiBookingManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Views\\Taxi\\TaxiBookingManagement.cshtml",
+              "RelativeDocumentMoniker": "RidePlanner\\Views\\Taxi\\TaxiBookingManagement.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Views\\Taxi\\TaxiBookingManagement.cshtml",
+              "RelativeToolTip": "RidePlanner\\Views\\Taxi\\TaxiBookingManagement.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-01T16:37:33.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\appsettings.json",
               "RelativeDocumentMoniker": "RidePlanner\\appsettings.json",
@@ -59,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TaxiBookingService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Services\\TaxiBookingService.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Services\\TaxiBookingService.cs",
@@ -72,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EditTaxiBookingViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\EditTaxiBookingViewModel.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\EditTaxiBookingViewModel.cs",
@@ -84,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CreateBookingViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\CreateBookingViewModel.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\CreateBookingViewModel.cs",
@@ -96,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ITaxiBookingService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiBookingService.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\ITaxiBookingService.cs",
@@ -108,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TaxiBookingController.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\Controllers\\TaxiBookingController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiBookingController.cs",

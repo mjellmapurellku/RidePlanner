@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "80T9D0NwjOI2yrFNV6qbUmH+9bsjH+3rfTpiSCIzMSA=",
+  "Hash": "kG4EuiJSwLFNsrBSZHqxl9Raqv9vWRlUWUQ44IiU6Hw=",
   "Source": "RidePlanner",
   "BasePath": "_content/RidePlanner",
   "Mode": "Default",
@@ -585,6 +585,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\taxi\\taxiBookings.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiBooking\\taxiBooking.js",
+      "SourceId": "RidePlanner",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\wwwroot\\",
+      "BasePath": "_content/RidePlanner",
+      "RelativePath": "js/taxiBooking/taxiBooking.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\taxiBooking\\taxiBooking.js"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
