@@ -4,7 +4,7 @@ using RidePlanner.Models.Enums;
 using RidePlanner.Models.TaxiRequest;
 using RidePlanner.ViewModel.TaxiModels;
 
-namespace RidePlanner.Mapping
+namespace RidePlanner.Mappings
 {
     public class TaxiBookingProfile : Profile
     {

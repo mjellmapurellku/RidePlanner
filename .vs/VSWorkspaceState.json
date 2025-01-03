@@ -2,7 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\RidePlanner",
-    "\\RidePlanner\\Controllers",
+    "\\RidePlanner\\Mappings",
     "\\RidePlanner\\Services",
     "\\RidePlanner\\Views",
     "\\RidePlanner\\Views\\Taxi",
@@ -11,6 +11,6 @@
     "\\RidePlanner\\wwwroot\\js\\taxiDashboard",
     "\\RidePlanner\\wwwroot\\js\\taxiReservation"
   ],
-  "SelectedNode": "\\RidePlanner\\Controllers\\TaxiManagmentController.cs",
+  "SelectedNode": "\\RidePlanner\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
