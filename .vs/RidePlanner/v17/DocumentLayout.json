@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\services\\dashboardservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\services\\dashboardservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|c:\\users\\lenovo\\desktop\\rideplanner\\rideplanner\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08101C7F-4022-4D55-B442-DEC24002FEE5}|RidePlanner\\RidePlanner.csproj|solutionrelative:rideplanner\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -147,6 +151,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DashboardService .cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Services\\DashboardService .cs",
+              "RelativeDocumentMoniker": "RidePlanner\\Services\\DashboardService .cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Services\\DashboardService .cs",
+              "RelativeToolTip": "RidePlanner\\Services\\DashboardService .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:19:33.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IDashboardService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IDashboardService.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\IDashboardService.cs",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IDriverService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\IDriverService.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\IDriverService.cs",
@@ -167,12 +184,11 @@
               "RelativeToolTip": "RidePlanner\\Interfaces\\IDriverService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T17:10:46.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T17:10:46.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "taxiBookings.js",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiDashboard\\taxiBookings.js",
               "RelativeDocumentMoniker": "RidePlanner\\wwwroot\\js\\taxiDashboard\\taxiBookings.js",
@@ -184,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserActivityController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\UserActivityController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\UserActivityController.cs",
@@ -196,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AuthenticateController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\AuthenticateController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\AuthenticateController.cs",
@@ -208,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AddTaxiDriverController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\AddTaxiDriverController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\AddTaxiDriverController.cs",
@@ -220,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TaxiCompanyController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiCompanyController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiCompanyController.cs",
@@ -232,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TaxiBookingController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiBookingController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiBookingController.cs",
@@ -244,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TaxiController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiController.cs",
@@ -256,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TaxiReservationController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiReservationController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiReservationController.cs",
@@ -268,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TaxiManagmentController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Controllers\\TaxiManagmentController.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Controllers\\TaxiManagmentController.cs",
@@ -280,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BusScheduleProfile.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\BusScheduleProfile.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Mappings\\BusScheduleProfile.cs",
@@ -292,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TaxiReservationProfile.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Mappings\\TaxiReservationProfile.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Mappings\\TaxiReservationProfile.cs",
@@ -304,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DriverViewModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\ViewModel\\TaxiModels\\DriverViewModel.cs",
               "RelativeDocumentMoniker": "RidePlanner\\ViewModel\\TaxiModels\\DriverViewModel.cs",
@@ -316,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EditTaxiViewModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\ViewModel\\TaxiModels\\EditTaxiViewModel.cs",
               "RelativeDocumentMoniker": "RidePlanner\\ViewModel\\TaxiModels\\EditTaxiViewModel.cs",
@@ -328,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ManageTaxiCompanyViewModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\ViewModel\\TaxiModels\\ManageTaxiCompanyViewModel.cs",
               "RelativeDocumentMoniker": "RidePlanner\\ViewModel\\TaxiModels\\ManageTaxiCompanyViewModel.cs",
@@ -340,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TaxiCompanyViewModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\ViewModel\\TaxiModels\\TaxiCompanyViewModel.cs",
               "RelativeDocumentMoniker": "RidePlanner\\ViewModel\\TaxiModels\\TaxiCompanyViewModel.cs",
@@ -352,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "TaxiViewModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\ViewModel\\TaxiModels\\TaxiViewModel.cs",
               "RelativeDocumentMoniker": "RidePlanner\\ViewModel\\TaxiModels\\TaxiViewModel.cs",
@@ -364,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TaxiBookingManagement.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Views\\TaxiManagement\\TaxiBookingManagement.cshtml",
               "RelativeDocumentMoniker": "RidePlanner\\Views\\TaxiManagement\\TaxiBookingManagement.cshtml",
@@ -376,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "TaxiReservation.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml",
               "RelativeDocumentMoniker": "RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml",
@@ -388,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\appsettings.json",
               "RelativeDocumentMoniker": "RidePlanner\\appsettings.json",
@@ -400,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "TaxiBooking.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Views\\Taxi\\TaxiBooking.cshtml",
               "RelativeDocumentMoniker": "RidePlanner\\Views\\Taxi\\TaxiBooking.cshtml",
@@ -412,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "taxiReservation.js",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiDashboard\\taxiReservation.js",
               "RelativeDocumentMoniker": "RidePlanner\\wwwroot\\js\\taxiDashboard\\taxiReservation.js",
@@ -424,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "TaxiReservationManagement.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Views\\TaxiManagement\\TaxiReservationManagement.cshtml",
               "RelativeDocumentMoniker": "RidePlanner\\Views\\TaxiManagement\\TaxiReservationManagement.cshtml",
@@ -436,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Data\\AppDbContext.cs",
@@ -448,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "TaxiBookingRequest.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\TaxiBookingRequest.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\TaxiBookingRequest.cs",
@@ -460,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "addCompany.js",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
               "RelativeDocumentMoniker": "RidePlanner\\wwwroot\\js\\taxiCompany\\addCompany.js",
@@ -472,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "EditTaxiBookingViewModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\EditTaxiBookingViewModel.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\EditTaxiBookingViewModel.cs",
@@ -484,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CreateBookingViewModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Models\\TaxiRequest\\CreateBookingViewModel.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Models\\TaxiRequest\\CreateBookingViewModel.cs",
@@ -496,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ITaxiBookingService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RidePlanner\\RidePlanner\\Interfaces\\ITaxiBookingService.cs",
               "RelativeDocumentMoniker": "RidePlanner\\Interfaces\\ITaxiBookingService.cs",
