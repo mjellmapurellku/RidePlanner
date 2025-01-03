@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RidePlanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c3d0f7ef6bd730a4d9203115dee395bedc84405")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d6deab677bb8d35d134b8952cdda671488415f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("RidePlanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RidePlanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
