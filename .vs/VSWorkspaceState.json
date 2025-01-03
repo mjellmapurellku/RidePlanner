@@ -2,15 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\RidePlanner",
-    "\\RidePlanner\\Controllers",
+    "\\RidePlanner\\Interfaces",
+    "\\RidePlanner\\Services",
     "\\RidePlanner\\ViewModel",
-    "\\RidePlanner\\ViewModel\\TaxiModels",
+    "\\RidePlanner\\ViewModel\\Dashboard",
     "\\RidePlanner\\Views",
     "\\RidePlanner\\Views\\Home",
     "\\RidePlanner\\wwwroot",
     "\\RidePlanner\\wwwroot\\js",
     "\\RidePlanner\\wwwroot\\js\\taxiBooking"
   ],
-  "SelectedNode": "\\RidePlanner\\wwwroot\\js\\taxiBooking",
+  "SelectedNode": "\\RidePlanner\\ViewModel\\Dashboard\\DashboardViewModel.cs",
   "PreviewInSolutionExplorer": false
 }
