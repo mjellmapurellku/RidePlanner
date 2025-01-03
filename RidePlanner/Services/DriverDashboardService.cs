@@ -210,6 +210,92 @@ namespace RidePlanner.Services
                 return (false, $"An error occurred: {ex.Message}", null);
             }
         }
+        public async Task<List<TaxiReservationRequest>> GetReservationsAsync()
+        {
+            try
+            {
+                var driverId = _authService.GetCurrentUserId();
+
+                if (driverId == null)
+                {
+                    _logger.LogWarning("Failed to fetch reservations: Driver is not authenticated.");
+                    return new List<TaxiReservationRequest>();
+                }
+
+                var reservations = await _context.TaxiReservations.Where(r => r.Status == ReservationStatus.Pending)
+                    .Include(r => r.User)
+                    .Include(r => r.Taxi)
+                    .ThenInclude(t => t.Driver)
+                    .Include(r => r.TaxiCompany)
+                    .Where(t => t.Taxi.DriverId == driverId.Value)
+                    .Select(r => new TaxiReservationRequest
+                    {
+                        ReservationId = r.ReservationId,
+                        PassengerName = $"{r.User.FirstName} {r.User.LastName}".Trim() ?? "Unknown",
+                        DriverName = r.Taxi != null
+                            ? $"{r.Taxi.Driver.FirstName} {r.Taxi.Driver.LastName}".Trim()
+                            : "Unassigned",
+                        PickupLocation = r.PickupLocation,
+                        DropoffLocation = r.DropoffLocation,
+                        ReservationDate = r.ReservationTime.ToString("yyyy-MM-dd"),
+                        ReservationTime = r.ReservationTime.ToString("hh:mm tt"),
+                        Fare = r.Fare.HasValue ? r.Fare.Value : (decimal?)null,
+                    })
+                    .ToListAsync();
+
+                _logger.LogInformation("Successfully fetched {Count} reservations for driver ID: {DriverId}", reservations.Count, driverId);
+                return reservations;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while fetching reservations for driver ID: {DriverId}", _authService.GetCurrentUserId());
+                return new List<TaxiReservationRequest>();
+            }
+        }
+
+        public async Task<bool> AcceptReservationAsync(int reservationId)
+        {
+            var driverId = _authService.GetCurrentUserId();
+
+            if (driverId == null)
+            {
+                _logger.LogWarning("Failed to accept reservation {ReservationId}: Driver is not authenticated.", reservationId);
+                return false;
+            }
+
+            try
+            {
+                var reservation = await _context.TaxiReservations
+                    .Include(r => r.Taxi)
+                    .ThenInclude(t => t.Driver)
+                    .FirstOrDefaultAsync(r => r.ReservationId == reservationId && r.Status == ReservationStatus.Pending);
+
+                if (reservation == null)
+                {
+                    _logger.LogWarning("Reservation {ReservationId} not found or is not in a pending state.", reservationId);
+                    return false;
+                }
+
+                if (reservation.Taxi.DriverId != driverId.Value)
+                {
+                    _logger.LogWarning("Driver {DriverId} is not authorized to accept reservation {ReservationId}.", driverId, reservationId);
+                    return false;
+                }
+
+                reservation.Status = ReservationStatus.Confirmed;
+
+                _context.TaxiReservations.Update(reservation);
+                await _context.SaveChangesAsync();
+
+                _logger.LogInformation("Reservation {ReservationId} was successfully accepted by driver {DriverId}.", reservationId, driverId);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while accepting reservation {ReservationId} by driver {DriverId}.", reservationId, driverId);
+                return false;
+            }
+        }
 
 
     }
