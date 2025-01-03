@@ -21,16 +21,18 @@ namespace RidePlanner.Controllers
     {
         private readonly IBusCompanyService _busCompanyService;
         private readonly ITaxiCompanyService _taxiCompanyService;
-
-        public DashboardController(ITaxiCompanyService taxiCompanyService, IBusCompanyService busCompanyService)
+        private readonly IDriverDashboardService _dashboardService;
+        public DashboardController(ITaxiCompanyService taxiCompanyService, IBusCompanyService busCompanyService, IDashboardService dashboardService)
         {
             _taxiCompanyService = taxiCompanyService;
             _busCompanyService = busCompanyService;
+            _dashboardService = dashboardService;
         }
 
         public IActionResult Dashboard()
         {
-            return View();
+            var model = _dashboardService.GetDashboardData();
+            return View(model);
         }
 
         [HttpGet("Bus")]
@@ -58,4 +60,4 @@ namespace RidePlanner.Controllers
             return View(viewModel);
         }
     }
- }
+}
