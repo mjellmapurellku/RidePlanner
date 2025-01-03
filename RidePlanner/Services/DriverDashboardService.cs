@@ -296,7 +296,101 @@ namespace RidePlanner.Services
                 return false;
             }
         }
+        public async Task<(bool Success, string Message)> StartReservationTripAsync(int reservationId)
+        {
+            var driverId = _authService.GetCurrentUserId();
 
+            if (driverId == null)
+            {
+                _logger.LogWarning("Failed to start trip for reservation {ReservationId}: Driver is not authenticated.", reservationId);
+                return (false, "Driver is not authenticated.");
+            }
+
+            try
+            {
+                var reservation = await _context.TaxiReservations
+                    .Include(r => r.Taxi)
+                    .ThenInclude(t => t.Driver)
+                    .FirstOrDefaultAsync(r => r.ReservationId == reservationId);
+
+                if (reservation == null)
+                {
+                    _logger.LogWarning("Reservation {ReservationId} not found.", reservationId);
+                    return (false, "Reservation not found.");
+                }
+
+                if (reservation.Taxi.DriverId != driverId.Value)
+                {
+                    _logger.LogWarning("Driver {DriverId} is not authorized to start the trip for reservation {ReservationId}.", driverId, reservationId);
+                    return (false, "You are not authorized to start this trip.");
+                }
+
+                if (reservation.Status != ReservationStatus.Confirmed)
+                {
+                    _logger.LogWarning("Reservation {ReservationId} is not in a confirmed state and cannot be started.", reservationId);
+                    return (false, "Only confirmed reservations can be started.");
+                }
+
+                reservation.Status = ReservationStatus.InProgress;
+                reservation.TripStartTime = DateTime.Now;
+
+                _context.TaxiReservations.Update(reservation);
+                await _context.SaveChangesAsync();
+
+                _logger.LogInformation("Trip for reservation {ReservationId} successfully started by driver {DriverId}.", reservationId, driverId);
+                return (true, "Trip started successfully.");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while starting the trip for reservation {ReservationId} by driver {DriverId}.", reservationId, driverId);
+                return (false, $"An error occurred: {ex.Message}");
+            }
+        }
+
+        public async Task<(bool Success, string Message)> EndReservationTripAsync(int reservationId)
+        {
+            var driverId = _authService.GetCurrentUserId();
+
+            if (driverId == null)
+            {
+                _logger.LogWarning("Driver is not authenticated. Reservation ID: {ReservationId}", reservationId);
+                return (false, "Driver is not authenticated.");
+            }
+
+            var reservation = await _context.TaxiReservations
+                .Include(r => r.Taxi)
+                .ThenInclude(t => t.Driver)
+                .FirstOrDefaultAsync(r => r.ReservationId == reservationId);
+
+            if (reservation == null)
+            {
+                _logger.LogWarning("Reservation not found. Reservation ID: {ReservationId}", reservationId);
+                return (false, "Reservation not found.");
+            }
+
+            if (reservation.Taxi.DriverId != driverId.Value)
+            {
+                _logger.LogWarning("Driver ID mismatch. Driver {DriverId} attempted to end trip for reservation ID: {ReservationId}", driverId.Value, reservationId);
+                return (false, "You are not authorized to end this trip.");
+            }
+
+            if (reservation.Status != ReservationStatus.InProgress)
+            {
+                _logger.LogWarning("Trip not in progress. Reservation ID: {ReservationId}, Current Status: {Status}", reservationId, reservation.Status);
+                return (false, "Trip is not in progress and cannot be ended.");
+            }
+
+            reservation.Status = ReservationStatus.End;
+            reservation.TripEndTime = DateTime.Now;
+
+            _context.TaxiReservations.Update(reservation);
+            await _context.SaveChangesAsync();
+
+            _logger.LogInformation("Trip ended successfully. Reservation ID: {ReservationId}, Driver ID: {DriverId}, End Time: {EndTime}",
+                reservationId, driverId.Value, reservation.TripEndTime);
+
+            return (true, "Trip ended successfully.");
+        }
 
     }
 }

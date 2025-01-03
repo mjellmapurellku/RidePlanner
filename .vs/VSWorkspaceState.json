@@ -2,8 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\RidePlanner",
-    "\\RidePlanner\\Interfaces",
-    "\\RidePlanner\\Services",
+    "\\RidePlanner\\Controllers",
     "\\RidePlanner\\ViewModel",
     "\\RidePlanner\\ViewModel\\Dashboard",
     "\\RidePlanner\\Views",
