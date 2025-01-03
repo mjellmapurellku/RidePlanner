@@ -5,8 +5,12 @@
     "\\RidePlanner\\Controllers",
     "\\RidePlanner\\Services",
     "\\RidePlanner\\Views",
-    "\\RidePlanner\\Views\\Taxi"
+    "\\RidePlanner\\Views\\Taxi",
+    "\\RidePlanner\\wwwroot",
+    "\\RidePlanner\\wwwroot\\js",
+    "\\RidePlanner\\wwwroot\\js\\taxiDashboard",
+    "\\RidePlanner\\wwwroot\\js\\taxiReservation"
   ],
-  "SelectedNode": "\\RidePlanner\\Views\\Taxi\\TaxiReservation.cshtml",
+  "SelectedNode": "\\RidePlanner\\wwwroot\\js\\taxiDashboard\\taxiBookings.js",
   "PreviewInSolutionExplorer": false
 }
