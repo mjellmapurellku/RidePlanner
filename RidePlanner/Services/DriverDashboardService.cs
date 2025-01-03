@@ -102,7 +102,115 @@ namespace RidePlanner.Services
                 return false;
             }
         }
+        public async Task<(bool Success, string Message)> StartTripAsync(int bookingId)
+        {
+            var driverId = _authService.GetCurrentUserId();
 
-        
+            if (driverId == null)
+            {
+                _logger.LogWarning("Attempt to start trip failed: Driver is not authenticated.");
+                return (false, "Driver is not authenticated.");
+            }
+
+            try
+            {
+                _logger.LogInformation("Driver ID: {DriverId} attempting to start trip for booking ID: {BookingId}", driverId, bookingId);
+
+                var booking = await _context.TaxiBookings
+                    .Include(b => b.Taxi)
+                    .ThenInclude(t => t.Driver)
+                    .FirstOrDefaultAsync(b => b.BookingId == bookingId);
+
+                if (booking == null)
+                {
+                    _logger.LogWarning("Booking ID: {BookingId} not found for driver ID: {DriverId}", bookingId, driverId);
+                    return (false, "Booking not found.");
+                }
+
+                if (booking.Taxi.DriverId != driverId.Value)
+                {
+                    _logger.LogWarning("Driver ID: {DriverId} is not authorized to start trip for booking ID: {BookingId}", driverId, bookingId);
+                    return (false, "You are not authorized to start this trip.");
+                }
+
+                if (booking.Status != ReservationStatus.Confirmed)
+                {
+                    _logger.LogWarning("Booking ID: {BookingId} cannot be started as its status is not 'Confirmed'. Current status: {Status}", bookingId, booking.Status);
+                    return (false, "Only confirmed bookings can be started.");
+                }
+
+                booking.Status = ReservationStatus.InProgress;
+                booking.TripStartTime = DateTime.Now;
+
+                _context.TaxiBookings.Update(booking);
+                await _context.SaveChangesAsync();
+
+                _logger.LogInformation("Trip successfully started for booking ID: {BookingId} by driver ID: {DriverId}", bookingId, driverId);
+                return (true, "Trip started successfully.");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while driver ID: {DriverId} was starting trip for booking ID: {BookingId}", driverId, bookingId);
+                return (false, "An error occurred while starting the trip.");
+            }
+        }
+
+        public async Task<(bool Success, string Message, TaxiBookingViewModel Booking)> EndTripAsync(int bookingId, decimal fare)
+        {
+            try
+            {
+                var driverId = _authService.GetCurrentUserId();
+
+                if (driverId == null)
+                {
+                    _logger.LogWarning("Attempt to end trip failed: Driver is not authenticated.");
+                    return (false, "Driver is not authenticated.", null);
+                }
+
+                _logger.LogInformation("Driver ID: {DriverId} attempting to end trip for booking ID: {BookingId}", driverId, bookingId);
+
+                var booking = await _context.TaxiBookings
+                    .Include(b => b.Taxi)
+                    .ThenInclude(t => t.Driver)
+                    .FirstOrDefaultAsync(b => b.BookingId == bookingId);
+
+                if (booking == null)
+                {
+                    _logger.LogWarning("Booking ID: {BookingId} not found for driver ID: {DriverId}", bookingId, driverId);
+                    return (false, "Booking not found.", null);
+                }
+
+                if (booking.Taxi.DriverId != driverId.Value)
+                {
+                    _logger.LogWarning("Driver ID: {DriverId} is not authorized to end trip for booking ID: {BookingId}", driverId, bookingId);
+                    return (false, "You are not authorized to end this trip.", null);
+                }
+
+                if (booking.Status != ReservationStatus.InProgress)
+                {
+                    _logger.LogWarning("Booking ID: {BookingId} cannot be ended as its status is not 'InProgress'. Current status: {Status}", bookingId, booking.Status);
+                    return (false, "Trip is not in progress and cannot be ended.", null);
+                }
+
+                booking.Status = ReservationStatus.End;
+                booking.TripEndTime = DateTime.Now;
+                booking.Fare = fare;
+
+                _context.TaxiBookings.Update(booking);
+                await _context.SaveChangesAsync();
+
+                var bookingViewModel = _mapper.Map<TaxiBookingViewModel>(booking);
+
+                _logger.LogInformation("Trip successfully ended for booking ID: {BookingId} by driver ID: {DriverId}. Fare: {Fare}, End Time: {EndTime}", bookingId, driverId, fare, booking.TripEndTime);
+                return (true, "Trip ended successfully.", bookingViewModel);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while driver ID: {DriverId} was attempting to end trip for booking ID: {BookingId}", _authService.GetCurrentUserId(), bookingId);
+                return (false, $"An error occurred: {ex.Message}", null);
+            }
+        }
+
+
     }
 }
