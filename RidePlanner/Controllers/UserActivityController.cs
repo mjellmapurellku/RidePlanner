@@ -10,104 +10,107 @@ using RidePlanner.Models.Enums;
 using RidePlanner.Models.Utilities;
 using RidePlanner.Data;
 using RidePlanner.ViewModel.BusReservation;
+using RidePlanner.Filters;
 
 namespace RidePlanner.Controllers
 {
+    //[ServiceFilter(typeof(LoginRequiredFilter))]
+    [ServiceFilter(typeof(LoginRequiredFilter))]
     [Route("UserActivity")]
     public class UserActivityController : Controller
     {
-        //private readonly ITaxiReservationService _taxiReservationService;
-        //private readonly ITaxiBookingService _taxiBookingService;
+        private readonly ITaxiReservationService _taxiReservationService;
+        private readonly ITaxiBookingService _taxiBookingService;
         private readonly ILogger<UserActivityController> _logger;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly AppDbContext _context;
         private readonly IMapper _mapper;
-        
-        //public UserActivityController(
-        //    ITaxiReservationService taxiReservationService,
-        //      ITaxiBookingService taxiBookingService,
-        //    ILogger<UserActivityController> logger,
-        //    IHttpContextAccessor httpContextAccessor,
-        //    AppDbContext context,
-        //    IMapper mapper)
-        //{
-        //    _taxiReservationService = taxiReservationService;
-        //    _taxiBookingService = taxiBookingService;
-        //    _logger = logger;
-        //    _httpContextAccessor = httpContextAccessor;
-        //    _context = context;
-        //    _mapper = mapper;
-        //}
 
-        //[HttpGet("MyReservations")]
-        //public async Task<IActionResult> MyReservations()
-        //{
-        //    var userId = _httpContextAccessor.HttpContext.Session.GetInt32("UserId");
+        public UserActivityController(
+            ITaxiReservationService taxiReservationService,
+              ITaxiBookingService taxiBookingService,
+            ILogger<UserActivityController> logger,
+            IHttpContextAccessor httpContextAccessor,
+            AppDbContext context,
+            IMapper mapper)
+        {
+            _taxiReservationService = taxiReservationService;
+            _taxiBookingService = taxiBookingService;
+            _logger = logger;
+            _httpContextAccessor = httpContextAccessor;
+            _context = context;
+            _mapper = mapper;
+        }
 
-        //    if (!userId.HasValue)
-        //    {
-        //        _logger.LogWarning("User ID not found in session.");
-        //        return View("Error", new { message = "User not found in session. Please log in again." });
-        //    }
+        [HttpGet("MyReservations")]
+        public async Task<IActionResult> MyReservations()
+        {
+            var userId = _httpContextAccessor.HttpContext.Session.GetInt32("UserId");
 
-        //    try
-        //    {
-        //        var reservations = await _taxiReservationService.GetReservationsForUserAsync(userId.Value);
-        //        return View("MyReservations", reservations);
-        //    }
-        //    catch (KeyNotFoundException ex)
-        //    {
-        //        _logger.LogWarning(ex, "User with ID {UserId} not found", userId);
-        //        return View("Error", new { message = "User not found." });
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, "An error occurred while retrieving reservations for user {UserId}", userId);
-        //        return View("Error", new { message = "An error occurred while retrieving your reservations." });
-        //    }
-        //}
+            if (!userId.HasValue)
+            {
+                _logger.LogWarning("User ID not found in session.");
+                return View("Error", new { message = "User not found in session. Please log in again." });
+            }
 
-        //[HttpGet("MyBookings")]
-        //public async Task<IActionResult> MyBookings()
-        //{
-           
-        //    try
-        //    {
-        //        var bookings = await _taxiBookingService.GetBookingsForUserAsync();
-        //        return View("MyBookings", bookings);
-        //    }
-        //    catch (KeyNotFoundException ex)
-        //    {
-        //        return View("Error", new { message = "User not found." });
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return View("Error", ex);
-        //    }
-        //}
+            try
+            {
+                var reservations = await _taxiReservationService.GetReservationsForUserAsync(userId.Value);
+                return View("MyReservations", reservations);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                _logger.LogWarning(ex, "User with ID {UserId} not found", userId);
+                return View("Error", new { message = "User not found." });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while retrieving reservations for user {UserId}", userId);
+                return View("Error", new { message = "An error occurred while retrieving your reservations." });
+            }
+        }
+
+        [HttpGet("MyBookings")]
+        public async Task<IActionResult> MyBookings()
+        {
+
+            try
+            {
+                var bookings = await _taxiBookingService.GetBookingsForUserAsync();
+                return View("MyBookings", bookings);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return View("Error", new { message = "User not found." });
+            }
+            catch (Exception ex)
+            {
+                return View("Error", ex);
+            }
+        }
 
 
-        //[HttpPost("CancelBooking/{id}")]
-        //public async Task<IActionResult> CancelBooking(int id)
-        //{
-        //    try
-        //    {
-        //        var success = await _taxiBookingService.CancelBookingAsync(id);
+        [HttpPost("CancelBooking/{id}")]
+        public async Task<IActionResult> CancelBooking(int id)
+        {
+            try
+            {
+                var success = await _taxiBookingService.CancelBookingAsync(id);
 
-        //        if (!success)
-        //        {
-        //            return BadRequest(new { message = "Booking not found, does not belong to you, or is not pending." });
-        //        }
+                if (!success)
+                {
+                    return BadRequest(new { message = "Booking not found, does not belong to you, or is not pending." });
+                }
 
-        //        _logger.LogInformation("Booking with ID {BookingId} canceled successfully", id);
-        //        return RedirectToAction("MyBookings");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, "An error occurred while canceling booking {BookingId}", id);
-        //        return View("Error", new { message = "An error occurred while canceling your booking." });
-        //    }
-        //}
+                _logger.LogInformation("Booking with ID {BookingId} canceled successfully", id);
+                return RedirectToAction("MyBookings");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while canceling booking {BookingId}", id);
+                return View("Error", new { message = "An error occurred while canceling your booking." });
+            }
+        }
 
         [HttpGet("MyBusSeats")]
         public async Task<IActionResult> MyBusSeats()
@@ -138,34 +141,34 @@ namespace RidePlanner.Controllers
         }
 
         [HttpPost("CancelReservation/{id}")]
-        //public async Task<IActionResult> CancelReservation(int id)
-        //{
-        //    var userId = _httpContextAccessor.HttpContext.Session.GetInt32("UserId");
+        public async Task<IActionResult> CancelReservation(int id)
+        {
+            var userId = _httpContextAccessor.HttpContext.Session.GetInt32("UserId");
 
-        //    if (!userId.HasValue)
-        //    {
-        //        return Unauthorized();
-        //    }
+            if (!userId.HasValue)
+            {
+                return Unauthorized();
+            }
 
-        //    try
-        //    {
-        //        var success = await _taxiReservationService.CancelReservationAsync(id, userId.Value);
+            try
+            {
+                var success = await _taxiReservationService.CancelReservationAsync(id, userId.Value);
 
-        //        if (!success)
-        //        {
-        //            _logger.LogWarning("Reservation with ID {ReservationId} cannot be canceled because it is not pending or does not belong to user {UserId}.", id, userId);
-        //            return BadRequest(new { message = "Reservation not found, does not belong to you, or is not pending." });
-        //        }
+                if (!success)
+                {
+                    _logger.LogWarning("Reservation with ID {ReservationId} cannot be canceled because it is not pending or does not belong to user {UserId}.", id, userId);
+                    return BadRequest(new { message = "Reservation not found, does not belong to you, or is not pending." });
+                }
 
-        //        _logger.LogInformation("Reservation with ID {ReservationId} canceled successfully.", id);
-        //        return RedirectToAction("MyReservations");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, "An error occurred while canceling reservation with ID {ReservationId}.", id);
-        //        return View("Error", new { message = "An error occurred while canceling your reservation." });
-        //    }
-        //}
+                _logger.LogInformation("Reservation with ID {ReservationId} canceled successfully.", id);
+                return RedirectToAction("MyReservations");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while canceling reservation with ID {ReservationId}.", id);
+                return View("Error", new { message = "An error occurred while canceling your reservation." });
+            }
+        }
 
         [HttpPost("CancelBusReservation/{id}")]
         public async Task<IActionResult> CancelBusReservation(int id)
@@ -207,5 +210,5 @@ namespace RidePlanner.Controllers
                 return View("Error", new { message = "An error occurred while canceling your bus reservation." });
             }
         }
-    } 
+    }
 }

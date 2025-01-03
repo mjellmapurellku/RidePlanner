@@ -16,7 +16,7 @@ namespace RidePlanner.Services
         private readonly IMapper _mapper;
         private readonly IAuthenticateService _authService;
 
-        public TaxiService(AppDbContext context, IMapper mapper,IAuthenticateService service)
+        public TaxiService(AppDbContext context, IMapper mapper, IAuthenticateService service)
         {
             _context = context;
             _mapper = mapper;

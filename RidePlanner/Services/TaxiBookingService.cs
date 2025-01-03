@@ -122,7 +122,7 @@ namespace RidePlanner.Services
             booking.TaxiId = model.TaxiId;
             booking.UpdatedAt = model.UpdateAt;
 
-            var taxi = await _context.Taxis.FirstOrDefaultAsync(t=>t.TaxiId == model.TaxiId);
+            var taxi = await _context.Taxis.FirstOrDefaultAsync(t => t.TaxiId == model.TaxiId);
             if (taxi != null)
             {
                 booking.DriverId = taxi.DriverId;
@@ -156,10 +156,10 @@ namespace RidePlanner.Services
                     .Where(r => r.UserId == userId.Value)
                     .ToListAsync();
 
-                if (!bookings.Any()) 
+                if (!bookings.Any())
                 {
                     _logger.LogWarning("No bookings found for user with ID {UserId}.", userId.Value);
-                     return new List<TaxiBookingViewModel>();
+                    return new List<TaxiBookingViewModel>();
                 }
 
                 return _mapper.Map<List<TaxiBookingViewModel>>(bookings);

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace RidePlanner.Controllers
 {
+
     [AllowAnonymous]
     public class TaxiController : Controller
     {

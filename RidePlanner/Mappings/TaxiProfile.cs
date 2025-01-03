@@ -3,6 +3,7 @@ using RidePlanner.Models.Entities;
 using RidePlanner.Models.TaxiRequest;
 using RidePlanner.ViewModel.Authenticate;
 using RidePlanner.ViewModel.TaxiModels;
+
 namespace RidePlanner.Mappings
 {
     public class TaxiProfile : Profile

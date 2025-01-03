@@ -117,7 +117,7 @@ namespace RidePlanner.Controllers
 
                 _logger.LogInformation("Successfully edited driver with ID: {DriverId}", id);
                 return Ok(new { success = true, message = "Driver updated successfully." });
-            } 
+            }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An unexpected error occurred while editing driver with ID: {DriverId}", id);

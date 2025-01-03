@@ -57,7 +57,7 @@ namespace RidePlanner.Services
         {
             try
             {
-             
+
 
                 if (!TimeSpan.TryParse(model.ReservationTime, out var timeSpan))
                 {
@@ -235,7 +235,7 @@ namespace RidePlanner.Services
                 if (!userExists)
                 {
                     _logger.LogWarning("User with ID {UserId} not found.", userId);
-                    return false; 
+                    return false;
                 }
                 var reservation = await _context.TaxiReservations
                     .FirstOrDefaultAsync(r => r.ReservationId == reservationId && r.UserId == userId && r.Status == ReservationStatus.Pending);

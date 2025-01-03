@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\RidePlanner",
-    "\\RidePlanner\\Mappings",
-    "\\RidePlanner\\Services",
+    "\\RidePlanner\\Controllers",
+    "\\RidePlanner\\ViewModel",
+    "\\RidePlanner\\ViewModel\\TaxiModels",
     "\\RidePlanner\\Views",
-    "\\RidePlanner\\Views\\Taxi",
+    "\\RidePlanner\\Views\\Home",
     "\\RidePlanner\\wwwroot",
     "\\RidePlanner\\wwwroot\\js",
-    "\\RidePlanner\\wwwroot\\js\\taxiDashboard",
-    "\\RidePlanner\\wwwroot\\js\\taxiReservation"
+    "\\RidePlanner\\wwwroot\\js\\taxiBooking"
   ],
-  "SelectedNode": "\\RidePlanner\\Program.cs",
+  "SelectedNode": "\\RidePlanner\\wwwroot\\js\\taxiBooking",
   "PreviewInSolutionExplorer": false
 }
