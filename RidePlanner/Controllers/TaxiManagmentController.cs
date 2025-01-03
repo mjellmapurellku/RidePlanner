@@ -10,7 +10,7 @@ using RidePlanner.Models.TaxiRequest;
 using RidePlanner.Models.Utilities;
 using RidePlanner.Services;
 
-namespace WebApplication1.Controllers
+namespace RidePlanner.Controllers
 {
     [TypeFilter(typeof(BusinessOnlyFilter), Arguments = new object[] { "TaxiCompany" })]
     [Route("Business/TaxiManagement")]
