@@ -11,6 +11,6 @@
     "\\RidePlanner\\wwwroot\\js",
     "\\RidePlanner\\wwwroot\\js\\taxiBooking"
   ],
-  "SelectedNode": "\\RidePlanner\\Services\\DriverDashboardService.cs",
+  "SelectedNode": "\\RidePlanner\\Controllers\\TaxiDriverController.cs",
   "PreviewInSolutionExplorer": false
 }
